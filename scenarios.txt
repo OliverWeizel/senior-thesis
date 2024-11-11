@@ -1,0 +1,10 @@
+waiter
+doctor
+firefighter
+dog
+flautist
+sniper
+competitive eater
+farmer
+gold prospector
+town crier
