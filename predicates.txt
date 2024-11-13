@@ -4,6 +4,17 @@ bipolar
 schizophrenic
 insane
 hypomanic
+ocd
+bpd
+neurotic
+calm
+sane
+serene
+Pynchonesque
+Hemmingwayesque
+normal
+abnormal
+feeble-minded
 nuts
 wacky
 dumb
