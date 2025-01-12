@@ -1,7 +1,19 @@
 import re
+import benepar
+import pandas as pd
+import nltk
+from nltk.tree import Tree
+from nltk.draw.tree import TreeView
+import os
+# import spacy
 from  icecream import ic
 
 sentence_enders = ["."] #, '?', '!', ':', ';']
+# nlp = spacy.load('en_core_web_md')
+# if spacy.__version__.startswith('2'):
+#   nlp.add_pipe(benepar.BeneparComponent("benepar_en3"))
+# else:
+#   nlp.add_pipe("benepar", config={"model": "benepar_en3"})
 
 # takes in an array of english words and returns true if one of a 
 # set of words is present
@@ -64,9 +76,25 @@ def valid_sentences(textpath, processor, indicator):
       res = res + sentences
   return res
 
+def f():
+  x
+
 def test():
-  ans = valid_sentences('COCA/text_academic_rpe/w_acad_1990.txt', english_processor, english_indicator)
-  ic(ans)
+  parser = benepar.Parser("benepar_en3")
+  ans = valid_sentences('COCA/text_academic_rpe/w_acad_1990.txt', english_processor, english_indicator)[:5]
+  df = pd.DataFrame({"sentence":ans})
+  tree_gen = parser.parse_sents([benepar.InputSentence(s) for s in ans])
+  trees = []
+  for t in tree_gen:
+    trees.append(t)
+  #ic(trees)
+  df['tree'] = trees
+  #df.head()
+  ic(ans[0])
+  ic(trees[0])
+  TreeView(trees[0])._cframe.print_to_file('output.ps')
+  os.system('convert output.ps output.png')
+  #ic(df['tree'][0])
 
 if __name__ == '__main__':
   test()

@@ -1,4 +1,6 @@
 import numpy as np
+import nltk
+from nltk.tree import Tree
 from nltk.corpus import wordnet as wn
 import benepar
 import spacy
@@ -6,8 +8,9 @@ import warnings
 import os
 import logging
 import sys
+from  icecream import ic
 # test
-
+'''
 LOGGER = logging.getLogger(__name__)
 HANDLER = logging.StreamHandler(sys.stdout)
 HANDLER.setFormatter(logging.Formatter("%(asctime)-s.%(msecs)03d %(levelname)-6.6s %(filename)-18.18s line:%(lineno)-4.4d %(funcName)-18s %(message)s"))
@@ -31,3 +34,10 @@ print(sent._.parse_string)
 doc = nlp("I am bored. Who am I? I am tired!")
 sent = list(doc.sents)[0]
 print(sent._.parse_string)
+'''
+
+parser = benepar.Parser("benepar_en3")
+input_sentence = benepar.InputSentence(
+    words=['hot', 'but', 'cold'],
+)
+print(parser.parse(input_sentence))
