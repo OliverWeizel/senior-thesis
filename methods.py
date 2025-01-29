@@ -2,9 +2,11 @@ import re
 import benepar
 import pandas as pd
 import nltk
+import nltk.draw
 from nltk.tree import Tree
 from nltk.draw.tree import TreeView
 import os
+from IPython.display import display
 # import spacy
 from  icecream import ic
 
@@ -76,8 +78,8 @@ def valid_sentences(textpath, processor, indicator):
       res = res + sentences
   return res
 
-def f():
-  x
+def pp(t):
+  return str(t.flatten()).replace('\n', ' ').replace('   ', ' ')
 
 def test():
   parser = benepar.Parser("benepar_en3")
@@ -89,11 +91,26 @@ def test():
     trees.append(t)
   #ic(trees)
   df['tree'] = trees
+
   #df.head()
   ic(ans[0])
   ic(trees[0])
-  TreeView(trees[0])._cframe.print_to_file('output.ps')
-  os.system('convert output.ps output.png')
+  for t in trees:
+    with open('trees/'+'test', 'w') as f:
+      for tp in t.treepositions():
+        if isinstance(t[tp], str):
+          continue
+        ic(t[tp])
+        if t[tp].label() == 'CC':
+          f.write(pp(t[tp[:-1]]))
+          for st in t[tp][:-1][:]:
+            f.write(pp(st))
+            f.write('\n')
+          f.write('\n')
+  #display(trees[0])
+  trees[0].pretty_print(unicodelines=True, nodedist=4)
+  #TreeView(trees[0])._cframe.print_to_file('output.ps')
+  #os.system('convert output.ps output.png')
   #ic(df['tree'][0])
 
 if __name__ == '__main__':
