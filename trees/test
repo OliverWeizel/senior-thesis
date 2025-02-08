@@ -1,2 +1,164 @@
-(NP society and its institutions)
-(SBAR that may deliver the look of innocence to society and its institutions but that do very little actually to uplift blacks)
+(NP society and its institutions)(NP (NP (NN society)) (CC and) (NP (PRP$ its) (NNS institutions)))
+(NP (NN society))
+(NN society)
+society
+(CC and)
+and
+(NP (PRP$ its) (NNS institutions))
+(PRP$ its)
+its
+(NNS institutions)
+institutions
+
+(SBAR that may deliver the look of innocence to society and its institutions but that do very little actually to uplift blacks)(SBAR
+  (SBAR
+    (WHNP (WDT that))
+    (S
+      (VP
+        (MD may)
+        (VP
+          (VB deliver)
+          (NP
+            (NP (DT the) (NN look))
+            (PP (IN of) (NP (NN innocence))))
+          (PP
+            (IN to)
+            (NP
+              (NP (NN society))
+              (CC and)
+              (NP (PRP$ its) (NNS institutions))))))))
+  (CC but)
+  (SBAR
+    (WHNP (WDT that))
+    (S
+      (VP
+        (VBP do)
+        (NP (RB very) (JJ little))
+        (ADVP (RB actually))
+        (S (VP (TO to) (VP (VB uplift) (NP (NNS blacks)))))))))
+(SBAR
+  (WHNP (WDT that))
+  (S
+    (VP
+      (MD may)
+      (VP
+        (VB deliver)
+        (NP (NP (DT the) (NN look)) (PP (IN of) (NP (NN innocence))))
+        (PP
+          (IN to)
+          (NP
+            (NP (NN society))
+            (CC and)
+            (NP (PRP$ its) (NNS institutions))))))))
+(WHNP (WDT that))
+(WDT that)
+that
+(S
+  (VP
+    (MD may)
+    (VP
+      (VB deliver)
+      (NP (NP (DT the) (NN look)) (PP (IN of) (NP (NN innocence))))
+      (PP
+        (IN to)
+        (NP
+          (NP (NN society))
+          (CC and)
+          (NP (PRP$ its) (NNS institutions)))))))
+(VP
+  (MD may)
+  (VP
+    (VB deliver)
+    (NP (NP (DT the) (NN look)) (PP (IN of) (NP (NN innocence))))
+    (PP
+      (IN to)
+      (NP
+        (NP (NN society))
+        (CC and)
+        (NP (PRP$ its) (NNS institutions))))))
+(MD may)
+may
+(VP
+  (VB deliver)
+  (NP (NP (DT the) (NN look)) (PP (IN of) (NP (NN innocence))))
+  (PP
+    (IN to)
+    (NP
+      (NP (NN society))
+      (CC and)
+      (NP (PRP$ its) (NNS institutions)))))
+(VB deliver)
+deliver
+(NP (NP (DT the) (NN look)) (PP (IN of) (NP (NN innocence))))
+(NP (DT the) (NN look))
+(DT the)
+the
+(NN look)
+look
+(PP (IN of) (NP (NN innocence)))
+(IN of)
+of
+(NP (NN innocence))
+(NN innocence)
+innocence
+(PP
+  (IN to)
+  (NP (NP (NN society)) (CC and) (NP (PRP$ its) (NNS institutions))))
+(IN to)
+to
+(NP (NP (NN society)) (CC and) (NP (PRP$ its) (NNS institutions)))
+(NP (NN society))
+(NN society)
+society
+(CC and)
+and
+(NP (PRP$ its) (NNS institutions))
+(PRP$ its)
+its
+(NNS institutions)
+institutions
+(CC but)
+but
+(SBAR
+  (WHNP (WDT that))
+  (S
+    (VP
+      (VBP do)
+      (NP (RB very) (JJ little))
+      (ADVP (RB actually))
+      (S (VP (TO to) (VP (VB uplift) (NP (NNS blacks))))))))
+(WHNP (WDT that))
+(WDT that)
+that
+(S
+  (VP
+    (VBP do)
+    (NP (RB very) (JJ little))
+    (ADVP (RB actually))
+    (S (VP (TO to) (VP (VB uplift) (NP (NNS blacks)))))))
+(VP
+  (VBP do)
+  (NP (RB very) (JJ little))
+  (ADVP (RB actually))
+  (S (VP (TO to) (VP (VB uplift) (NP (NNS blacks))))))
+(VBP do)
+do
+(NP (RB very) (JJ little))
+(RB very)
+very
+(JJ little)
+little
+(ADVP (RB actually))
+(RB actually)
+actually
+(S (VP (TO to) (VP (VB uplift) (NP (NNS blacks)))))
+(VP (TO to) (VP (VB uplift) (NP (NNS blacks))))
+(TO to)
+to
+(VP (VB uplift) (NP (NNS blacks)))
+(VB uplift)
+uplift
+(NP (NNS blacks))
+(NNS blacks)
+blacks
+

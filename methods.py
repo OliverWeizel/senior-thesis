@@ -9,6 +9,7 @@ import os
 from IPython.display import display
 # import spacy
 from  icecream import ic
+from scipy.stats import chisquare
 
 sentence_enders = ["."] #, '?', '!', ':', ';']
 # nlp = spacy.load('en_core_web_md')
@@ -35,9 +36,9 @@ def english_processor(text, specific_processor=None):
   #sentences = re.split(' ' + ' | '.join(sentence_enders) + ' ', text)
   sentences = text.split(' . ')
   sentences = [s.split(' ') for s in sentences]
-  sentences = [[w for w in s if w not in { '\n', '<p>', '' } and w != ''] for s in sentences]
+  sentences = [[w for w in s if w not in { '\n', '<p>', '', ',' } and w != ''] for s in sentences]
   sentences = [s for s in sentences if '@' not in s]
-  sentences = [s for s in sentences]
+  sentences = [s.lower() for s in sentences]
 
   for s in sentences:
     if not s:
@@ -81,34 +82,93 @@ def valid_sentences(textpath, processor, indicator):
 def pp(t):
   return str(t.flatten()).replace('\n', ' ').replace('   ', ' ')
 
+def text(t):
+  return ' '.join(t.leaves())
+
 def test():
   parser = benepar.Parser("benepar_en3")
-  ans = valid_sentences('COCA/text_academic_rpe/w_acad_1990.txt', english_processor, english_indicator)[:5]
-  df = pd.DataFrame({"sentence":ans})
+  ans = valid_sentences('COCA/text_academic_rpe/w_acad_1990.txt', english_processor, english_indicator) #[:5]
+  #df = pd.DataFrame({"sentence":ans})
   tree_gen = parser.parse_sents([benepar.InputSentence(s) for s in ans])
   trees = []
   for t in tree_gen:
     trees.append(t)
   #ic(trees)
-  df['tree'] = trees
+  #df['tree'] = trees
+
+  #df = pd.DataFrame("tree":[], "conjunction":[], 'left':[], 'right':[])
+
+  parent_tree = []
+  parent_text = []
+  parent_type = []
+  left_tree = []
+  left_text = []
+  left_type = []
+  cc_tree = []
+  cc_text = []
+  right_tree = []
+  right_text = []
+  right_type = []
+  
+
+  for t in trees:
+    ic('full: '+ pp(t))
+    for tp in t.treepositions():
+      if isinstance(t[tp], str):
+        continue
+      if t[tp].label() == 'CC':
+        parent = t[tp[:-1]]
+        relative_tp = tp[-1]
+        # ic(relative_tp)
+        # ic(parent.treepositions())
+        if relative_tp + 1 >= len(parent.treepositions()):
+          print("bad conjunction!")
+          continue
+        ic('parent: ' + pp(parent))
+        left = parent[0]
+        ic('left: ' + pp(left))
+        conj = parent[relative_tp]
+        ic('conj: ' + pp(conj))
+        ic('conjunction: ' + ' '.join(conj.leaves()))
+        right = parent[relative_tp + 1]
+        ic('right: ' + pp(right))
+        parent_tree.append(parent)
+        parent_text.append(text(parent))
+        parent_type.append(parent.label())
+        left_tree.append(left)
+        left_text.append(text(left))
+        left_type.append(left.label())
+        right_tree.append(right)
+        right_text.append(text(right))
+        right_type.append(right.label())
+        cc_tree.append(conj)
+        cc_text.append(text(conj))
+
+  df = pd.DataFrame({'parent_tree':parent_tree, 'parent_text':parent_text, 'parent_type':parent_type, 'left_tree':left_tree, 'left_text':left_text, 'left_type':left_type, 'right_tree':right_tree, 'right_text':right_text, 'right_type':right_type, 'cc_tree':cc_tree, 'cc_text':cc_text})
+  df['same_type'] = df.apply(lambda row: row['left_type'] == row['right_type'], axis=1)
+  print(df['cc_text'].value_counts())
+  res = chisquare(df['cc_text'].value_counts())
+  print(res)
+  print(df.head())
 
   #df.head()
-  ic(ans[0])
-  ic(trees[0])
-  for t in trees:
-    with open('trees/'+'test', 'w') as f:
-      for tp in t.treepositions():
-        if isinstance(t[tp], str):
-          continue
-        ic(t[tp])
-        if t[tp].label() == 'CC':
-          f.write(pp(t[tp[:-1]]))
-          for st in t[tp][:-1][:]:
-            f.write(pp(st))
-            f.write('\n')
-          f.write('\n')
-  #display(trees[0])
-  trees[0].pretty_print(unicodelines=True, nodedist=4)
+  # ic(ans[0])
+  # ic(trees[0])
+  # for t in trees:
+  #   with open('trees/'+'test', 'w') as f:
+  #     for tp in t.treepositions():
+  #       if isinstance(t[tp], str):
+  #         continue
+  #       ic(t[tp])
+  #       if t[tp].label() == 'CC':
+  #         parent = t[tp[:-1]]
+  #         f.write(pp(t[tp[:-1]]))
+  #         for stp in parent.treepositions():
+  #           f.write(str(parent[stp]))
+  #           f.write('\n')
+  #         f.write('\n')
+  # #display(trees[0])
+  #trees[0].pretty_print(unicodelines=True, nodedist=4)
   #TreeView(trees[0])._cframe.print_to_file('output.ps')
   #os.system('convert output.ps output.png')
   #ic(df['tree'][0])
