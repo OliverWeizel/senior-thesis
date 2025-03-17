@@ -11,7 +11,7 @@ from IPython.display import display
 from  icecream import ic
 from scipy.stats import chisquare
 
-sentence_enders = ["."] #, '?', '!', ':', ';']
+sentence_enders = [".", '?', '!', ':', ';']
 # nlp = spacy.load('en_core_web_md')
 # if spacy.__version__.startswith('2'):
 #   nlp.add_pipe(benepar.BeneparComponent("benepar_en3"))
@@ -24,7 +24,7 @@ def english_indicator(text, options=['but']):
   for w in text:
     if w in options:
       return True
-  return False
+  return True
 
 # takes in a line of english text, splits the line into paragraphs
 # returns a line splinto sentences as an array of array of strings
@@ -34,10 +34,13 @@ def english_processor(text, specific_processor=None):
   #print("HEllllllLLO")
   res = []
   #sentences = re.split(' ' + ' | '.join(sentence_enders) + ' ', text)
-  sentences = text.split(' . ')
+  ic(sentences)
+  #sentences = text.split(' . ')
   sentences = [s.split(' ') for s in sentences]
+  ic(sentences)
   sentences = [[w for w in s if w not in { '\n', '<p>', '', ',' } and w != ''] for s in sentences]
-  sentences = [s for s in sentences if '@' not in s]
+  #sentences = [s for s in sentences if '@' not in s]
+  ic(sentences)
   sentences = [s.lower() for s in sentences]
 
   for s in sentences:
@@ -52,6 +55,8 @@ def english_processor(text, specific_processor=None):
       continue
     if ';' in joined:
       continue
+    if '-' in joined:
+      continue
 
     res.append(s)
   #print([r[:3] for r in res])
@@ -63,6 +68,10 @@ def english_processor(text, specific_processor=None):
   #else:
   #  res = [s for s in sentences if all(re.match(r'^[\w-]+$', w) for w in s.split(' '))]
   return res
+
+def new_processor(specific_processor=None):
+  return nltk.tokenize.sent_tokenize(text)
+
 
 # takens in the path to a .txt file, a function that takes in a 
 # line containing multiple sentences and returns array of array
