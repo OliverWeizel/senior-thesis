@@ -1,0 +1,883 @@
+parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,right_text,right_type,cc_tree,cc_text,same_type,clausal_coord,corrective
+"(S
+  (S
+    (NP (PRP i))
+    (VP
+      (MD can)
+      (VP
+        (VB see)
+        (ADVP (RB now))
+        (SBAR
+          (IN that)
+          (S (ADVP (RB possibly)) (NP (PRP she)) (VP (VBD was)))))))
+  (CC but)
+  (S
+    (ADVP (RB then))
+    (NP (NP (DT all)) (SBAR (S (NP (PRP i)) (VP (VBD saw)))))
+    (VP
+      (VBD was)
+      (NP
+        (NP (PRP$ her) (NN irritability))
+        (PP
+          (IN at)
+          (S
+            (VP
+              (VBG having)
+              (S
+                (VP
+                  (TO to)
+                  (VP
+                    (VB carry)
+                    (PRT (RP out))
+                    (NP
+                      (ADJP (RB so) (JJ unpleasant))
+                      (DT a)
+                      (NN task))))))))))))",i can see now that possibly she was but then all i saw was her irritability at having to carry out so unpleasant a task,S,"(S
+  (NP (PRP i))
+  (VP
+    (MD can)
+    (VP
+      (VB see)
+      (ADVP (RB now))
+      (SBAR
+        (IN that)
+        (S (ADVP (RB possibly)) (NP (PRP she)) (VP (VBD was)))))))",i can see now that possibly she was,S,"(S
+  (ADVP (RB then))
+  (NP (NP (DT all)) (SBAR (S (NP (PRP i)) (VP (VBD saw)))))
+  (VP
+    (VBD was)
+    (NP
+      (NP (PRP$ her) (NN irritability))
+      (PP
+        (IN at)
+        (S
+          (VP
+            (VBG having)
+            (S
+              (VP
+                (TO to)
+                (VP
+                  (VB carry)
+                  (PRT (RP out))
+                  (NP
+                    (ADJP (RB so) (JJ unpleasant))
+                    (DT a)
+                    (NN task)))))))))))",then all i saw was her irritability at having to carry out so unpleasant a task,S,(CC but),but,True,True,False
+"(VP
+  (VP (VBD came) (ADVP (RB right) (RB out)))
+  (CC and)
+  (VP
+    (VBD asked)
+    (NP (PRP me))
+    (S
+      (VP
+        (TO to)
+        (VP
+          (VB feel)
+          (ADJP (JJ sorry) (PP (IN for) (NP (PRP them)))))))))",came right out and asked me to feel sorry for them,VP,(VP (VBD came) (ADVP (RB right) (RB out))),came right out,VP,"(VP
+  (VBD asked)
+  (NP (PRP me))
+  (S
+    (VP
+      (TO to)
+      (VP (VB feel) (ADJP (JJ sorry) (PP (IN for) (NP (PRP them))))))))",asked me to feel sorry for them,VP,(CC and),and,True,False,False
+"(S
+  (S
+    (NP (PRP$ our) (NN color))
+    (VP
+      (VBD had)
+      (VP (VBN brought) (NP (DT this) (NN man)) (NP (NN anguish)))))
+  (CC and)
+  (S
+    (SBAR
+      (IN if)
+      (S
+        (NP
+          (NP (DT a) (NN part))
+          (PP (IN of) (NP (DT that) (NN anguish))))
+        (VP (VBD was) (NP (NN guilt)))))
+    (NP (PRP it))
+    (VP
+      (VBD was)
+      (RB not)
+      (ADJP
+        (RB as)
+        (JJ immediate)
+        (PP (IN to) (NP (PRP me)))
+        (PP (IN as) (NP (PRP$ my) (JJ own) (NN guilt)))))))",our color had brought this man anguish and if a part of that anguish was guilt it was not as immediate to me as my own guilt,S,"(S
+  (NP (PRP$ our) (NN color))
+  (VP
+    (VBD had)
+    (VP (VBN brought) (NP (DT this) (NN man)) (NP (NN anguish)))))",our color had brought this man anguish,S,"(S
+  (SBAR
+    (IN if)
+    (S
+      (NP
+        (NP (DT a) (NN part))
+        (PP (IN of) (NP (DT that) (NN anguish))))
+      (VP (VBD was) (NP (NN guilt)))))
+  (NP (PRP it))
+  (VP
+    (VBD was)
+    (RB not)
+    (ADJP
+      (RB as)
+      (JJ immediate)
+      (PP (IN to) (NP (PRP me)))
+      (PP (IN as) (NP (PRP$ my) (JJ own) (NN guilt))))))",if a part of that anguish was guilt it was not as immediate to me as my own guilt,S,(CC and),and,True,True,False
+"(VP
+  (VP
+    (VBD smiled)
+    (PP (IN at) (NP (DT the) (NN man)))
+    (S
+      (VP
+        (TO to)
+        (VP
+          (VB let)
+          (S
+            (NP (PRP him))
+            (VP
+              (VB know)
+              (SBAR
+                (S
+                  (NP (PRP he))
+                  (VP
+                    (MD should)
+                    (RB n't)
+                    (VP (VB feel) (ADJP (JJ bad))))))))))))
+  (CC and)
+  (ADVP (RB then))
+  (VP
+    (VBD began)
+    (NP (NP (PRP$ my) (JJ long) (NN walk)) (ADVP (RB home)))))",smiled at the man to let him know he should n't feel bad and then began my long walk home,VP,"(VP
+  (VBD smiled)
+  (PP (IN at) (NP (DT the) (NN man)))
+  (S
+    (VP
+      (TO to)
+      (VP
+        (VB let)
+        (S
+          (NP (PRP him))
+          (VP
+            (VB know)
+            (SBAR
+              (S
+                (NP (PRP he))
+                (VP
+                  (MD should)
+                  (RB n't)
+                  (VP (VB feel) (ADJP (JJ bad))))))))))))",smiled at the man to let him know he should n't feel bad,VP,(ADVP (RB then)),then,ADVP,(CC and),and,False,False,False
+"(S
+  (S
+    (ADVP (RB certainly))
+    (NP (PRP i))
+    (ADVP (RB also))
+    (VP (VBP judge) (NP (PRP him)) (S (NP (DT a) (NN coward)))))
+  (CC but)
+  (S
+    (PP (IN in) (NP (DT that) (NN era)))
+    (NP (PRP$ his) (NN cowardice))
+    (VP
+      (VBD was)
+      (NP
+        (NP (NN something))
+        (SBAR
+          (S
+            (NP (PRP i))
+            (VP (VBD had) (S (VP (TO to) (VP (VB absorb)))))))))))",certainly i also judge him a coward but in that era his cowardice was something i had to absorb,S,"(S
+  (ADVP (RB certainly))
+  (NP (PRP i))
+  (ADVP (RB also))
+  (VP (VBP judge) (NP (PRP him)) (S (NP (DT a) (NN coward)))))",certainly i also judge him a coward,S,"(S
+  (PP (IN in) (NP (DT that) (NN era)))
+  (NP (PRP$ his) (NN cowardice))
+  (VP
+    (VBD was)
+    (NP
+      (NP (NN something))
+      (SBAR
+        (S
+          (NP (PRP i))
+          (VP (VBD had) (S (VP (TO to) (VP (VB absorb))))))))))",in that era his cowardice was something i had to absorb,S,(CC but),but,True,True,False
+(NP (DT the) (NNS fifties) (CC and) (NNS sixties)),the fifties and sixties,NP,(NNS fifties),fifties,NNS,(NNS sixties),sixties,NNS,(CC and),and,True,False,False
+"(S
+  (S
+    (NP (NN denial))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (JJ common) (NN way))
+        (PP (IN of) (S (VP (VBG handling) (NP (NN guilt))))))))
+  (CC but)
+  (S
+    (PP (IN in) (NP (DT the) (CD 1960s)))
+    (NP (EX there))
+    (VP
+      (VBD was)
+      (NP
+        (NP (NP (JJ little) (NN will)) (VP (VBN left)))
+        (PP (IN for) (NP (NN denial))))
+      (PP
+        (IN except)
+        (PP
+          (IN in)
+          (NP
+            (DT the)
+            (ADJP (RBS most) (JJ recalcitrant))
+            (NNS whites)))))))",denial is a common way of handling guilt but in the 1960s there was little will left for denial except in the most recalcitrant whites,S,"(S
+  (NP (NN denial))
+  (VP
+    (VBZ is)
+    (NP
+      (NP (DT a) (JJ common) (NN way))
+      (PP (IN of) (S (VP (VBG handling) (NP (NN guilt))))))))",denial is a common way of handling guilt,S,"(S
+  (PP (IN in) (NP (DT the) (CD 1960s)))
+  (NP (EX there))
+  (VP
+    (VBD was)
+    (NP
+      (NP (NP (JJ little) (NN will)) (VP (VBN left)))
+      (PP (IN for) (NP (NN denial))))
+    (PP
+      (IN except)
+      (PP
+        (IN in)
+        (NP
+          (DT the)
+          (ADJP (RBS most) (JJ recalcitrant))
+          (NNS whites))))))",in the 1960s there was little will left for denial except in the most recalcitrant whites,S,(CC but),but,True,True,False
+"(NP
+  (NP (NN redemption))
+  (CC or)
+  (NP
+    (NP (ADVP (RB at) (RBS least)) (DT the) (NN look))
+    (PP (IN of) (NP (NN redemption)))))",redemption or at least the look of redemption,NP,(NP (NN redemption)),redemption,NP,"(NP
+  (NP (ADVP (RB at) (RBS least)) (DT the) (NN look))
+  (PP (IN of) (NP (NN redemption))))",at least the look of redemption,NP,(CC or),or,True,False,False
+"(VP
+  (VP
+    (VBD went)
+    (PP
+      (IN after)
+      (NP
+        (NP (NN redemption))
+        (CC or)
+        (NP
+          (NP (ADVP (RB at) (RBS least)) (DT the) (NN look))
+          (PP (IN of) (NP (NN redemption)))))))
+  (CC and)
+  (VP
+    (VBD did)
+    (ADVP (RB so))
+    (PP (IN with) (NP (DT a) (NN vengeance)))))",went after redemption or at least the look of redemption and did so with a vengeance,VP,"(VP
+  (VBD went)
+  (PP
+    (IN after)
+    (NP
+      (NP (NN redemption))
+      (CC or)
+      (NP
+        (NP (ADVP (RB at) (RBS least)) (DT the) (NN look))
+        (PP (IN of) (NP (NN redemption)))))))",went after redemption or at least the look of redemption,VP,"(VP
+  (VBD did)
+  (ADVP (RB so))
+  (PP (IN with) (NP (DT a) (NN vengeance))))",did so with a vengeance,VP,(CC and),and,True,False,False
+(NP (NN housing) (CC and) (NN education)),housing and education,NP,(NN housing),housing,NN,(NN education),education,NN,(CC and),and,True,False,False
+"(VP
+  (VBN stagnated)
+  (CC or)
+  (VBN regressed)
+  (PP (IN since) (NP (DT the) (JJ early) (NNS seventies))))",stagnated or regressed since the early seventies,VP,(VBN stagnated),stagnated,VBN,(VBN regressed),regressed,VBN,(CC or),or,True,False,False
+(NP (NP (NN society)) (CC and) (NP (PRP$ its) (NNS institutions))),society and its institutions,NP,(NP (NN society)),society,NP,(NP (PRP$ its) (NNS institutions)),its institutions,NP,(CC and),and,True,False,False
+"(SBAR
+  (SBAR
+    (WHNP (WDT that))
+    (S
+      (VP
+        (MD may)
+        (VP
+          (VB deliver)
+          (NP
+            (NP (DT the) (NN look))
+            (PP (IN of) (NP (NN innocence))))
+          (PP
+            (IN to)
+            (NP
+              (NP (NN society))
+              (CC and)
+              (NP (PRP$ its) (NNS institutions))))))))
+  (CC but)
+  (SBAR
+    (WHNP (WDT that))
+    (S
+      (VP
+        (VBP do)
+        (NP (RB very) (JJ little))
+        (ADVP (RB actually))
+        (S (VP (TO to) (VP (VB uplift) (NP (NNS blacks)))))))))",that may deliver the look of innocence to society and its institutions but that do very little actually to uplift blacks,SBAR,"(SBAR
+  (WHNP (WDT that))
+  (S
+    (VP
+      (MD may)
+      (VP
+        (VB deliver)
+        (NP (NP (DT the) (NN look)) (PP (IN of) (NP (NN innocence))))
+        (PP
+          (IN to)
+          (NP
+            (NP (NN society))
+            (CC and)
+            (NP (PRP$ its) (NNS institutions))))))))",that may deliver the look of innocence to society and its institutions,SBAR,"(SBAR
+  (WHNP (WDT that))
+  (S
+    (VP
+      (VBP do)
+      (NP (RB very) (JJ little))
+      (ADVP (RB actually))
+      (S (VP (TO to) (VP (VB uplift) (NP (NNS blacks))))))))",that do very little actually to uplift blacks,SBAR,(CC but),but,True,True,False
+"(ADJP
+  (ADJP (RB much) (JJR harder))
+  (CC and)
+  (ADJP (RBR more) (JJ mundane)))",much harder and more mundane,ADJP,(ADJP (RB much) (JJR harder)),much harder,ADJP,(ADJP (RBR more) (JJ mundane)),more mundane,ADJP,(CC and),and,True,False,False
+(NP (JJ black) (NN uplift) (CC and) (NN development)),black uplift and development,NP,(NN uplift),uplift,NN,(NN development),development,NN,(CC and),and,True,False,False
+"(PP
+  (DT both)
+  (PP (IN on) (NP (NNS entitlements)))
+  (CC and)
+  (PP
+    (IN on)
+    (NP
+      (NP (DT the) (JJ white) (NN guilt))
+      (SBAR
+        (WHNP (WDT that))
+        (S (VP (VBZ generates) (NP (PRP them))))))))",both on entitlements and on the white guilt that generates them,PP,(PP (IN on) (NP (NNS entitlements))),on entitlements,PP,"(PP
+  (IN on)
+  (NP
+    (NP (DT the) (JJ white) (NN guilt))
+    (SBAR (WHNP (WDT that)) (S (VP (VBZ generates) (NP (PRP them)))))))",on the white guilt that generates them,PP,(CC and),and,True,False,False
+(NP (JJ black) (NN stagnation) (CC and) (NN regression)),black stagnation and regression,NP,(NN stagnation),stagnation,NN,(NN regression),regression,NN,(CC and),and,True,False,False
+"(VP
+  (VP
+    (VB stop)
+    (NP (DT a) (JJ white) (NN businessman))
+    (PP
+      (IN in)
+      (NP
+        (NP (NP (DT the) (NNS men) (POS 's)) (NN room))
+        (PP (IN of) (NP (DT a) (JJ large) (NN hotel))))))
+  (CC and)
+  (VP
+    (VB convince)
+    (NP (PRP him))
+    (S
+      (VP
+        (TO to)
+        (VP
+          (VB increase)
+          (NP (PRP$ his) (NN tip))
+          (PP (IN to) (NP (DT the) (JJ black) (NN attendant)))
+          (PP
+            (PP (IN from) (NP (CD one)))
+            (PP (IN to) (NP (CD twenty) (NNS dollars)))))))))",stop a white businessman in the men 's room of a large hotel and convince him to increase his tip to the black attendant from one to twenty dollars,VP,"(VP
+  (VB stop)
+  (NP (DT a) (JJ white) (NN businessman))
+  (PP
+    (IN in)
+    (NP
+      (NP (NP (DT the) (NNS men) (POS 's)) (NN room))
+      (PP (IN of) (NP (DT a) (JJ large) (NN hotel))))))",stop a white businessman in the men 's room of a large hotel,VP,"(VP
+  (VB convince)
+  (NP (PRP him))
+  (S
+    (VP
+      (TO to)
+      (VP
+        (VB increase)
+        (NP (PRP$ his) (NN tip))
+        (PP (IN to) (NP (DT the) (JJ black) (NN attendant)))
+        (PP
+          (PP (IN from) (NP (CD one)))
+          (PP (IN to) (NP (CD twenty) (NNS dollars))))))))",convince him to increase his tip to the black attendant from one to twenty dollars,VP,(CC and),and,True,False,False
+(ADJP (JJ harried) (CC and) (JJ weary)),harried and weary,ADJP,(JJ harried),harried,JJ,(JJ weary),weary,JJ,(CC and),and,True,False,False
+"(VP
+  (VP
+    (VB make)
+    (NP (DT this) (NN point))
+    (PP (IN to) (NP (DT the) (NN businessman))))
+  (CC and)
+  (VP
+    (TO to)
+    (VP
+      (VB say)
+      (SBAR
+        (IN that)
+        (S
+          (NP (DT no) (JJ white) (NN man))
+          (VP
+            (MD would)
+            (VP (VB do) (PP (IN in) (NP (DT this) (NN job))))))))))",make this point to the businessman and to say that no white man would do in this job,VP,"(VP
+  (VB make)
+  (NP (DT this) (NN point))
+  (PP (IN to) (NP (DT the) (NN businessman))))",make this point to the businessman,VP,"(VP
+  (TO to)
+  (VP
+    (VB say)
+    (SBAR
+      (IN that)
+      (S
+        (NP (DT no) (JJ white) (NN man))
+        (VP
+          (MD would)
+          (VP (VB do) (PP (IN in) (NP (DT this) (NN job)))))))))",to say that no white man would do in this job,VP,(CC and),and,True,False,False
+"(VP
+  (VP
+    (VBD put)
+    (NP (DT the) (NN single))
+    (ADVP (RB back))
+    (PP (IN in) (NP (PRP$ his) (NN wallet))))
+  (CC and)
+  (VP (VBD took) (PRT (RP out)) (NP (DT a) (CD five))))",put the single back in his wallet and took out a five,VP,"(VP
+  (VBD put)
+  (NP (DT the) (NN single))
+  (ADVP (RB back))
+  (PP (IN in) (NP (PRP$ his) (NN wallet))))",put the single back in his wallet,VP,(VP (VBD took) (PRT (RP out)) (NP (DT a) (CD five))),took out a five,VP,(CC and),and,True,False,False
+"(S
+  (S
+    (NP (DT this))
+    (VP
+      (VBD stopped)
+      (S (NP (DT the) (NN victim)) (S (ADJP (JJ cold))))))
+  (CC and)
+  (S (NP (PRP$ his) (NNS eyes)) (VP (VBD turned) (ADVP (JJ inward)))))",this stopped the victim cold and his eyes turned inward,S,"(S
+  (NP (DT this))
+  (VP
+    (VBD stopped)
+    (S (NP (DT the) (NN victim)) (S (ADJP (JJ cold))))))",this stopped the victim cold,S,(S (NP (PRP$ his) (NNS eyes)) (VP (VBD turned) (ADVP (JJ inward)))),his eyes turned inward,S,(CC and),and,True,True,False
+"(VP
+  (VP
+    (VBD worked)
+    (NP (NNS nights))
+    (PP (IN in) (NP (DT a) (NN factory))))
+  (CC and)
+  (VP
+    (VBD demanded)
+    (SBAR
+      (IN that)
+      (S
+        (NP (DT the) (NN house))
+        (VP
+          (VB be)
+          (ADJP (JJ dark) (CC and) (JJ silent))
+          (NP (DT all) (NN day)))))))",worked nights in a factory and demanded that the house be dark and silent all day,VP,"(VP
+  (VBD worked)
+  (NP (NNS nights))
+  (PP (IN in) (NP (DT a) (NN factory))))",worked nights in a factory,VP,"(VP
+  (VBD demanded)
+  (SBAR
+    (IN that)
+    (S
+      (NP (DT the) (NN house))
+      (VP
+        (VB be)
+        (ADJP (JJ dark) (CC and) (JJ silent))
+        (NP (DT all) (NN day))))))",demanded that the house be dark and silent all day,VP,(CC and),and,True,False,False
+(ADJP (JJ dark) (CC and) (JJ silent)),dark and silent,ADJP,(JJ dark),dark,JJ,(JJ silent),silent,JJ,(CC and),and,True,False,False
+"(S
+  (S
+    (NP (PRP$ my) (NN friend))
+    (VP
+      (VBD blamed)
+      (NP (NP (PRP$ his) (NN father) (POS 's)) (NN bitterness))
+      (PP (IN on) (NP (NN racism)))))
+  (CC but)
+  (S
+    (NP (PRP i))
+    (VP
+      (VBD knew)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP
+            (VBD had)
+            (RB not)
+            (VP
+              (VBN meant)
+              (S
+                (VP
+                  (TO to)
+                  (VP
+                    (VB exploit)
+                    (NP (PRP$ his) (JJ own) (NN pain))
+                    (PP
+                      (IN in)
+                      (NP (DT this) (JJ silly) (NN experiment)))))))))))))",my friend blamed his father 's bitterness on racism but i knew he had not meant to exploit his own pain in this silly experiment,S,"(S
+  (NP (PRP$ my) (NN friend))
+  (VP
+    (VBD blamed)
+    (NP (NP (PRP$ his) (NN father) (POS 's)) (NN bitterness))
+    (PP (IN on) (NP (NN racism)))))",my friend blamed his father 's bitterness on racism,S,"(S
+  (NP (PRP i))
+  (VP
+    (VBD knew)
+    (SBAR
+      (S
+        (NP (PRP he))
+        (VP
+          (VBD had)
+          (RB not)
+          (VP
+            (VBN meant)
+            (S
+              (VP
+                (TO to)
+                (VP
+                  (VB exploit)
+                  (NP (PRP$ his) (JJ own) (NN pain))
+                  (PP
+                    (IN in)
+                    (NP (DT this) (JJ silly) (NN experiment))))))))))))",i knew he had not meant to exploit his own pain in this silly experiment,S,(CC but),but,True,True,False
+"(S
+  (S
+    (NP (PRP$ your) (NN father))
+    (VP (VBD had) (NP (PDT all) (DT the) (JJ goddamn) (NNS chances))))
+  (CC and)
+  (S
+    (NP (PRP you))
+    (VP (VBP know) (SBAR (S (NP (PRP he)) (VP (VBD did)))))))",your father had all the goddamn chances and you know he did,S,"(S
+  (NP (PRP$ your) (NN father))
+  (VP (VBD had) (NP (PDT all) (DT the) (JJ goddamn) (NNS chances))))",your father had all the goddamn chances,S,"(S
+  (NP (PRP you))
+  (VP (VBP know) (SBAR (S (NP (PRP he)) (VP (VBD did))))))",you know he did,S,(CC and),and,True,True,False
+"(VP
+  (VP
+    (VBP sell)
+    (NP (VBG printing) (NNS presses))
+    (PP (IN to) (NP (JJ black) (NNS people))))
+  (CC and)
+  (VP (VBP make) (NP (NNS thousands))))",sell printing presses to black people and make thousands,VP,"(VP
+  (VBP sell)
+  (NP (VBG printing) (NNS presses))
+  (PP (IN to) (NP (JJ black) (NNS people))))",sell printing presses to black people,VP,(VP (VBP make) (NP (NNS thousands))),make thousands,VP,(CC and),and,True,False,False
+"(S
+  (S
+    (NP (PRP you))
+    (VP
+      (VP
+        (VBP sell)
+        (NP (VBG printing) (NNS presses))
+        (PP (IN to) (NP (JJ black) (NNS people))))
+      (CC and)
+      (VP (VBP make) (NP (NNS thousands)))))
+  (CC and)
+  (S
+    (NP (PRP$ your) (NN father))
+    (ADVP (RB probably))
+    (VP
+      (VBZ lives)
+      (ADVP (RP down))
+      (PP (IN in) (NP (NML (JJ fat) (NN city)) (NNP florida)))
+      (SBAR
+        (ADVP (DT all))
+        (IN because)
+        (S (NP (PRP you)) (VP (VBP 're) (ADJP (JJ white))))))))",you sell printing presses to black people and make thousands and your father probably lives down in fat city florida all because you 're white,S,"(S
+  (NP (PRP you))
+  (VP
+    (VP
+      (VBP sell)
+      (NP (VBG printing) (NNS presses))
+      (PP (IN to) (NP (JJ black) (NNS people))))
+    (CC and)
+    (VP (VBP make) (NP (NNS thousands)))))",you sell printing presses to black people and make thousands,S,"(S
+  (NP (PRP$ your) (NN father))
+  (ADVP (RB probably))
+  (VP
+    (VBZ lives)
+    (ADVP (RP down))
+    (PP (IN in) (NP (NML (JJ fat) (NN city)) (NNP florida)))
+    (SBAR
+      (ADVP (DT all))
+      (IN because)
+      (S (NP (PRP you)) (VP (VBP 're) (ADJP (JJ white)))))))",your father probably lives down in fat city florida all because you 're white,S,(CC and),and,True,True,False
+(NP (NP (PRP$ my) (NN friend)) (CC and) (NP (PRP i))),my friend and i,NP,(NP (PRP$ my) (NN friend)),my friend,NP,(NP (PRP i)),i,NP,(CC and),and,True,False,False
+"(VP
+  (VP
+    (MD could)
+    (RB not)
+    (VP (VB look) (PP (IN at) (NP (DT the) (JJ old) (NN man)))))
+  (CC nor)
+  (SINV
+    (MD could)
+    (NP (PRP we))
+    (VP (VB look) (PP (IN at) (NP (DT each) (JJ other))))))",could not look at the old man nor could we look at each other,VP,"(VP
+  (MD could)
+  (RB not)
+  (VP (VB look) (PP (IN at) (NP (DT the) (JJ old) (NN man)))))",could not look at the old man,VP,"(SINV
+  (MD could)
+  (NP (PRP we))
+  (VP (VB look) (PP (IN at) (NP (DT each) (JJ other)))))",could we look at each other,SINV,(CC nor),nor,False,False,False
+"(NP
+  (NP (NP (DT an) (NN encounter)) (PP (IN of) (NP (NNS people))))
+  (CC but)
+  (PP
+    (IN of)
+    (NP (JJ historical) (NNS grudges) (CC and) (NNS guilts))))",an encounter of people but of historical grudges and guilts,NP,(NP (NP (DT an) (NN encounter)) (PP (IN of) (NP (NNS people)))),an encounter of people,NP,(PP (IN of) (NP (JJ historical) (NNS grudges) (CC and) (NNS guilts))),of historical grudges and guilts,PP,(CC but),but,False,False,False
+(NP (JJ historical) (NNS grudges) (CC and) (NNS guilts)),historical grudges and guilts,NP,(NNS grudges),grudges,NNS,(NNS guilts),guilts,NNS,(CC and),and,True,False,False
+(NP (PRP$ his) (JJ own) (JJ racial) (NN pain) (CC and) (NN anger)),his own racial pain and anger,NP,(NN pain),pain,NN,(NN anger),anger,NN,(CC and),and,True,False,False
+(NP (DT the) (NN pain) (CC and) (NN anger)),the pain and anger,NP,(NN pain),pain,NN,(NN anger),anger,NN,(CC and),and,True,False,False
+"(NP
+  (NP (DT the) (NN pain) (CC and) (NN anger))
+  (CC but)
+  (NP
+    (NP (PRP$ his) (NN trading))
+    (PP (IN on) (NP (PRP them)))
+    (PP
+      (IN for)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (VP
+            (VBD turned)
+            (PRT (RP out))
+            (S
+              (VP
+                (TO to)
+                (VP
+                  (VB be)
+                  (NP (DT a) (JJ mere) (CD twenty) (NNS bucks)))))))))))",the pain and anger but his trading on them for what turned out to be a mere twenty bucks,NP,(NP (DT the) (NN pain) (CC and) (NN anger)),the pain and anger,NP,"(NP
+  (NP (PRP$ his) (NN trading))
+  (PP (IN on) (NP (PRP them)))
+  (PP
+    (IN for)
+    (SBAR
+      (WHNP (WP what))
+      (S
+        (VP
+          (VBD turned)
+          (PRT (RP out))
+          (S
+            (VP
+              (TO to)
+              (VP
+                (VB be)
+                (NP (DT a) (JJ mere) (CD twenty) (NNS bucks))))))))))",his trading on them for what turned out to be a mere twenty bucks,NP,(CC but),but,True,False,False
+(NP (NN selfishness) (CC and) (NN escapism)),selfishness and escapism,NP,(NN selfishness),selfishness,NN,(NN escapism),escapism,NN,(CC and),and,True,False,False
+"(VP
+  (VP
+    (VBP are)
+    (ADVP (RB no) (RBR longer))
+    (ADJP
+      (JJ interested)
+      (PP
+        (IN in)
+        (NP
+          (NP (DT the) (NN source))
+          (PP (IN of) (NP (PRP$ our) (NN guilt)))))))
+  (CC and)
+  (ADVP (RB therefore))
+  (ADVP (RB no) (RBR longer))
+  (ADJP
+    (JJ concerned)
+    (PP
+      (IN with)
+      (NP
+        (NP (DT an) (JJ authentic) (NN redemption))
+        (PP (IN from) (NP (PRP it)))))))",are no longer interested in the source of our guilt and therefore no longer concerned with an authentic redemption from it,VP,"(VP
+  (VBP are)
+  (ADVP (RB no) (RBR longer))
+  (ADJP
+    (JJ interested)
+    (PP
+      (IN in)
+      (NP
+        (NP (DT the) (NN source))
+        (PP (IN of) (NP (PRP$ our) (NN guilt)))))))",are no longer interested in the source of our guilt,VP,(ADVP (RB therefore)),therefore,ADVP,(CC and),and,False,False,False
+"(NP
+  (NP (NP (DT the) (NN appearance)) (PP (IN of) (NP (NN innocence))))
+  (CC and)
+  (VP (VB escape) (PP (IN from) (NP (DT the) (NN situation)))))",the appearance of innocence and escape from the situation,NP,(NP (NP (DT the) (NN appearance)) (PP (IN of) (NP (NN innocence)))),the appearance of innocence,NP,(VP (VB escape) (PP (IN from) (NP (DT the) (NN situation)))),escape from the situation,VP,(CC and),and,False,False,False
+"(PP
+  (PP
+    (IN for)
+    (NP (NP (DT the) (NN appearance)) (PP (IN of) (NP (NN concern)))))
+  (CC and)
+  (PP
+    (IN for)
+    (NP
+      (NP (DT the) (NN escape))
+      (SBAR (S (NP (PRP it)) (VP (VBD afforded) (NP (PRP him))))))))",for the appearance of concern and for the escape it afforded him,PP,"(PP
+  (IN for)
+  (NP (NP (DT the) (NN appearance)) (PP (IN of) (NP (NN concern)))))",for the appearance of concern,PP,"(PP
+  (IN for)
+  (NP
+    (NP (DT the) (NN escape))
+    (SBAR (S (NP (PRP it)) (VP (VBD afforded) (NP (PRP him)))))))",for the escape it afforded him,PP,(CC and),and,True,False,False
+"(VP
+  (VP (VBD evoked) (NP (JJ white) (NN guilt)))
+  (CC and)
+  (VP
+    (VBD made)
+    (S
+      (NP (PRP it))
+      (NP
+        (NP (DT a) (NN force))
+        (PP (IN in) (NP (JJ american) (NNS institutions))))))
+  (PP
+    (ADVP (RB very) (RB much))
+    (IN in)
+    (NP
+      (NP (DT the) (JJ same) (NN way))
+      (SBAR
+        (IN as)
+        (S
+          (NP (PRP$ my) (NN friend))
+          (VP
+            (VBD brought)
+            (NP (PRP it))
+            (PP (IN to) (NP (NN life)))
+            (PP (IN in) (NP (DT the) (NN businessman)))))))))",evoked white guilt and made it a force in american institutions very much in the same way as my friend brought it to life in the businessman,VP,(VP (VBD evoked) (NP (JJ white) (NN guilt))),evoked white guilt,VP,"(VP
+  (VBD made)
+  (S
+    (NP (PRP it))
+    (NP
+      (NP (DT a) (NN force))
+      (PP (IN in) (NP (JJ american) (NNS institutions))))))",made it a force in american institutions,VP,(CC and),and,True,False,False
+"(NP
+  (NP
+    (NP (DT a) (JJ profound) (NN anger))
+    (PP
+      (IN at)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (VP
+            (VBD was)
+            (VP (VBN done) (PP (IN to) (NP (NNS blacks)))))))))
+  (CC and)
+  (NP
+    (DT an)
+    (ADJP (RB equally) (JJ profound))
+    (NN feeling)
+    (SBAR
+      (IN that)
+      (S
+        (NP (EX there))
+        (VP (MD should) (VP (VB be) (NP (NNS reparations))))))))",a profound anger at what was done to blacks and an equally profound feeling that there should be reparations,NP,"(NP
+  (NP (DT a) (JJ profound) (NN anger))
+  (PP
+    (IN at)
+    (SBAR
+      (WHNP (WP what))
+      (S
+        (VP (VBD was) (VP (VBN done) (PP (IN to) (NP (NNS blacks)))))))))",a profound anger at what was done to blacks,NP,"(NP
+  (DT an)
+  (ADJP (RB equally) (JJ profound))
+  (NN feeling)
+  (SBAR
+    (IN that)
+    (S
+      (NP (EX there))
+      (VP (MD should) (VP (VB be) (NP (NNS reparations)))))))",an equally profound feeling that there should be reparations,NP,(CC and),and,True,False,False
+"(NP
+  (NP (NN senator) (JJ hubert) (NNP humphrey))
+  (CC and)
+  (NP (NNS others)))",senator hubert humphrey and others,NP,(NP (NN senator) (JJ hubert) (NNP humphrey)),senator hubert humphrey,NP,(NP (NNS others)),others,NP,(CC and),and,True,False,False
+"(S
+  (S
+    (NP (NNS blacks))
+    (ADVP (RB then))
+    (VP
+      (VBP become)
+      (NP
+        (NP (DT a) (NN means))
+        (PP (IN to) (NP (DT this) (NN redemption))))))
+  (CC and)
+  (S
+    (PP (IN as) (ADJP (JJ such)))
+    (NP (PRP they))
+    (VP
+      (MD must)
+      (VP
+        (VB be)
+        (VP
+          (VBN seen)
+          (PP
+            (IN as)
+            (ADJP
+              (ADJP (RB generally) (JJR less))
+              (PP (IN than) (NP (NNS others))))))))))",blacks then become a means to this redemption and as such they must be seen as generally less than others,S,"(S
+  (NP (NNS blacks))
+  (ADVP (RB then))
+  (VP
+    (VBP become)
+    (NP
+      (NP (DT a) (NN means))
+      (PP (IN to) (NP (DT this) (NN redemption))))))",blacks then become a means to this redemption,S,"(S
+  (PP (IN as) (ADJP (JJ such)))
+  (NP (PRP they))
+  (VP
+    (MD must)
+    (VP
+      (VB be)
+      (VP
+        (VBN seen)
+        (PP
+          (IN as)
+          (ADJP
+            (ADJP (RB generally) (JJR less))
+            (PP (IN than) (NP (NNS others)))))))))",as such they must be seen as generally less than others,S,(CC and),and,True,True,False
+"(VP
+  (VP (MD can) (VP (VB negotiate) (NP (NNS entitlements))))
+  (CC but)
+  (ADVP (RB never))
+  (ADVP (RB fully))
+  (VP
+    (VB see)
+    (PP
+      (IN as)
+      (NP (NP (NNS people)) (PP (IN like) (NP (PRP themselves)))))))",can negotiate entitlements but never fully see as people like themselves,VP,(VP (MD can) (VP (VB negotiate) (NP (NNS entitlements)))),can negotiate entitlements,VP,(ADVP (RB never)),never,ADVP,(CC but),but,False,False,False
+"(S
+  (S
+    (NP (DT this))
+    (ADVP (RB of) (RB course))
+    (VP (VBZ is) (RB not) (NP (NN racism))))
+  (CC and)
+  (ADVP (RB yet))
+  (S
+    (NP (PRP it))
+    (VP
+      (VBZ has)
+      (NP
+        (NP (DT the) (JJ same) (NN effect))
+        (PP (IN as) (NP (NN racism))))
+      (SBAR
+        (IN since)
+        (S
+          (NP (PRP it))
+          (VP
+            (VBZ makes)
+            (S
+              (NP (NNS blacks))
+              (NP
+                (NP (NN something))
+                (PP
+                  (IN of)
+                  (NP
+                    (NP (DT a) (JJ separate) (NN species))
+                    (SBAR
+                      (WHPP (IN for) (WHNP (WP whom)))
+                      (S
+                        (NP
+                          (JJ normal)
+                          (NNS standards)
+                          (CC and)
+                          (NNS values))
+                        (VP
+                          (VBP do)
+                          (RB not)
+                          (ADVP (RB automatically))
+                          (VP (VBP apply)))))))))))))))",this of course is not racism and yet it has the same effect as racism since it makes blacks something of a separate species for whom normal standards and values do not automatically apply,S,"(S
+  (NP (DT this))
+  (ADVP (RB of) (RB course))
+  (VP (VBZ is) (RB not) (NP (NN racism))))",this of course is not racism,S,(ADVP (RB yet)),yet,ADVP,(CC and),and,False,False,False
+(NP (JJ normal) (NNS standards) (CC and) (NNS values)),normal standards and values,NP,(NNS standards),standards,NNS,(NNS values),values,NNS,(CC and),and,True,False,False
