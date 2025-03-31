@@ -1,4 +1,4 @@
-parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,right_text,right_type,cc_tree,cc_text,base_text,parent_funnel,left_funnel,right_funnel,same_type,same_funnel,clausal_coord,corrective,left_sent,base_sent,right_sent
+parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,right_text,right_type,cc_tree,cc_text,base_text,parent_funnel,left_funnel,right_funnel,same_type,same_funnel,clausal_coord,corrective,left_sent,base_sent,right_sent,cosine
 "(S
   (S
     (NP (PRP i))
@@ -62,7 +62,7 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
                   (NP
                     (ADJP (RB so) (JJ unpleasant))
                     (DT a)
-                    (NN task)))))))))))",then all i saw was her irritability at having to carry out so unpleasant a task,S,(CC but),but,i can see now that possibly she was but then all i saw was her irritability at having to carry out so unpleasant a task,S,S,S,True,True,True,False,0.8247523903846741,-0.999281108379364,-0.9993377327919006
+                    (NN task)))))))))))",then all i saw was her irritability at having to carry out so unpleasant a task,S,(CC but),but,i can see now that possibly she was but then all i saw was her irritability at having to carry out so unpleasant a task,S,S,S,True,True,True,False,0.8247523903846741,-0.999281108379364,-0.9993377327919006,
 "(VP
   (VP (VBD came) (ADVP (RB right) (RB out)))
   (CC and)
@@ -80,7 +80,7 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
   (S
     (VP
       (TO to)
-      (VP (VB feel) (ADJP (JJ sorry) (PP (IN for) (NP (PRP them))))))))",asked me to feel sorry for them,VP,(CC and),and,occasionally they came right out and asked me to feel sorry for them,X,X,X,True,True,False,False,-0.692925751209259,-0.9980043768882751,-0.9990345239639282
+      (VP (VB feel) (ADJP (JJ sorry) (PP (IN for) (NP (PRP them))))))))",asked me to feel sorry for them,VP,(CC and),and,occasionally they came right out and asked me to feel sorry for them,X,X,X,True,True,False,False,-0.692925751209259,-0.9980043768882751,-0.9990345239639282,
 "(S
   (S
     (NP (PRP$ our) (NN color))
@@ -124,7 +124,7 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
       (RB as)
       (JJ immediate)
       (PP (IN to) (NP (PRP me)))
-      (PP (IN as) (NP (PRP$ my) (JJ own) (NN guilt))))))",if a part of that anguish was guilt it was not as immediate to me as my own guilt,S,(CC and),and,our color had brought this man anguish and if a part of that anguish was guilt it was not as immediate to me as my own guilt,S,S,S,True,True,True,False,-0.9997566342353821,-0.9913800358772278,-0.9884799122810364
+      (PP (IN as) (NP (PRP$ my) (JJ own) (NN guilt))))))",if a part of that anguish was guilt it was not as immediate to me as my own guilt,S,(CC and),and,our color had brought this man anguish and if a part of that anguish was guilt it was not as immediate to me as my own guilt,S,S,S,True,True,True,False,-0.9997566342353821,-0.9913800358772278,-0.9884799122810364,
 "(VP
   (VP
     (VBD smiled)
@@ -167,7 +167,7 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
                 (VP
                   (MD should)
                   (RB n't)
-                  (VP (VB feel) (ADJP (JJ bad))))))))))))",smiled at the man to let him know he should n't feel bad,VP,(ADVP (RB then)),then,ADVP,(CC and),and,i smiled at the man to let him know he should n't feel bad and then began my long walk home,X,X,X,False,True,False,False,0.997470498085022,0.9883955717086792,0.8128639459609985
+                  (VP (VB feel) (ADJP (JJ bad))))))))))))",smiled at the man to let him know he should n't feel bad,VP,(ADVP (RB then)),then,ADVP,(CC and),and,i smiled at the man to let him know he should n't feel bad and then began my long walk home,X,X,X,False,True,False,False,0.997470498085022,0.9883955717086792,0.8128639459609985,
 "(S
   (S
     (ADVP (RB certainly))
@@ -199,8 +199,8 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
       (SBAR
         (S
           (NP (PRP i))
-          (VP (VBD had) (S (VP (TO to) (VP (VB absorb))))))))))",in that era his cowardice was something i had to absorb,S,(CC but),but,certainly i also judge him a coward but in that era his cowardice was something i had to absorb,S,S,S,True,True,True,False,-0.999138355255127,-0.9280120134353638,-0.927739679813385
-(NP (DT the) (NNS fifties) (CC and) (NNS sixties)),the fifties and sixties,NP,(NNS fifties),fifties,NNS,(NNS sixties),sixties,NNS,(CC and),and,i think what made the difference between the fifties and sixties at least as far as white guilt was concerned was that whites underwent an archetypal fall,X,N,N,True,True,False,False,-0.9860239028930664,-0.6623404622077942,0.7043004035949707
+          (VP (VBD had) (S (VP (TO to) (VP (VB absorb))))))))))",in that era his cowardice was something i had to absorb,S,(CC but),but,certainly i also judge him a coward but in that era his cowardice was something i had to absorb,S,S,S,True,True,True,False,-0.999138355255127,-0.9280120134353638,-0.927739679813385,
+(NP (DT the) (NNS fifties) (CC and) (NNS sixties)),the fifties and sixties,NP,(NNS fifties),fifties,NNS,(NNS sixties),sixties,NNS,(CC and),and,i think what made the difference between the fifties and sixties at least as far as white guilt was concerned was that whites underwent an archetypal fall,X,N,N,True,True,False,False,-0.9860239028930664,-0.6623404622077942,0.7043004035949707,0.6568441390991211
 "(S
   (S
     (NP (NN denial))
@@ -246,7 +246,7 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
         (NP
           (DT the)
           (ADJP (RBS most) (JJ recalcitrant))
-          (NNS whites))))))",in the 1960s there was little will left for denial except in the most recalcitrant whites,S,(CC but),but,denial is a common way of handling guilt but in the 1960s there was little will left for denial except in the most recalcitrant whites,S,S,S,True,True,True,False,-0.9946223497390747,-0.8863689303398132,0.6577812433242798
+          (NNS whites))))))",in the 1960s there was little will left for denial except in the most recalcitrant whites,S,(CC but),but,denial is a common way of handling guilt but in the 1960s there was little will left for denial except in the most recalcitrant whites,S,S,S,True,True,True,False,-0.9946223497390747,-0.8863689303398132,0.6577812433242798,
 "(NP
   (NP (NN redemption))
   (CC or)
@@ -254,7 +254,7 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
     (NP (ADVP (RB at) (RBS least)) (DT the) (NN look))
     (PP (IN of) (NP (NN redemption)))))",redemption or at least the look of redemption,NP,(NP (NN redemption)),redemption,NP,"(NP
   (NP (ADVP (RB at) (RBS least)) (DT the) (NN look))
-  (PP (IN of) (NP (NN redemption))))",at least the look of redemption,NP,(CC or),or,once america could no longer deny its guilt it went after redemption or at least the look of redemption and did so with a vengeance,X,X,X,True,True,False,False,0.9966323971748352,0.9942806959152222,0.9905217885971069
+  (PP (IN of) (NP (NN redemption))))",at least the look of redemption,NP,(CC or),or,once america could no longer deny its guilt it went after redemption or at least the look of redemption and did so with a vengeance,X,X,X,True,True,False,False,0.9966323971748352,0.9942806959152222,0.9905217885971069,
 "(VP
   (VP
     (VBD went)
@@ -282,14 +282,14 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
         (PP (IN of) (NP (NN redemption)))))))",went after redemption or at least the look of redemption,VP,"(VP
   (VBD did)
   (ADVP (RB so))
-  (PP (IN with) (NP (DT a) (NN vengeance))))",did so with a vengeance,VP,(CC and),and,once america could no longer deny its guilt it went after redemption or at least the look of redemption and did so with a vengeance,X,X,X,True,True,False,False,0.9397881031036377,0.9942806959152222,0.9654000401496887
-(NP (NN housing) (CC and) (NN education)),housing and education,NP,(NN housing),housing,NN,(NN education),education,NN,(CC and),and,a national research council study notes the status of blacks relative to whites -LRB- in housing and education -RRB- has stagnated or regressed since the early seventies,X,N,N,True,True,False,False,0.9918949007987976,-0.8586019277572632,0.9942481517791748
+  (PP (IN with) (NP (DT a) (NN vengeance))))",did so with a vengeance,VP,(CC and),and,once america could no longer deny its guilt it went after redemption or at least the look of redemption and did so with a vengeance,X,X,X,True,True,False,False,0.9397881031036377,0.9942806959152222,0.9654000401496887,
+(NP (NN housing) (CC and) (NN education)),housing and education,NP,(NN housing),housing,NN,(NN education),education,NN,(CC and),and,a national research council study notes the status of blacks relative to whites -LRB- in housing and education -RRB- has stagnated or regressed since the early seventies,X,N,N,True,True,False,False,0.9918949007987976,-0.8586019277572632,0.9942481517791748,0.32108449935913086
 "(VP
   (VBN stagnated)
   (CC or)
   (VBN regressed)
-  (PP (IN since) (NP (DT the) (JJ early) (NNS seventies))))",stagnated or regressed since the early seventies,VP,(VBN stagnated),stagnated,VBN,(VBN regressed),regressed,VBN,(CC or),or,a national research council study notes the status of blacks relative to whites -LRB- in housing and education -RRB- has stagnated or regressed since the early seventies,X,V,V,True,True,False,False,-0.9990988969802856,-0.8586019277572632,-0.9920694828033447
-(NP (NP (NN society)) (CC and) (NP (PRP$ its) (NNS institutions))),society and its institutions,NP,(NP (NN society)),society,NP,(NP (PRP$ its) (NNS institutions)),its institutions,NP,(CC and),and,i think the white need for redemption has contributed to this tragic situation by shaping our policies regarding blacks in ways that may deliver the look of innocence to society and its institutions but that do very little actually to uplift blacks,X,X,X,True,True,False,False,0.9729816317558289,-0.9893999695777893,0.9985380172729492
+  (PP (IN since) (NP (DT the) (JJ early) (NNS seventies))))",stagnated or regressed since the early seventies,VP,(VBN stagnated),stagnated,VBN,(VBN regressed),regressed,VBN,(CC or),or,a national research council study notes the status of blacks relative to whites -LRB- in housing and education -RRB- has stagnated or regressed since the early seventies,X,V,V,True,True,False,False,-0.9990988969802856,-0.8586019277572632,-0.9920694828033447,0.5226737260818481
+(NP (NP (NN society)) (CC and) (NP (PRP$ its) (NNS institutions))),society and its institutions,NP,(NP (NN society)),society,NP,(NP (PRP$ its) (NNS institutions)),its institutions,NP,(CC and),and,i think the white need for redemption has contributed to this tragic situation by shaping our policies regarding blacks in ways that may deliver the look of innocence to society and its institutions but that do very little actually to uplift blacks,X,X,X,True,True,False,False,0.9729816317558289,-0.9893999695777893,0.9985380172729492,
 "(SBAR
   (SBAR
     (WHNP (WDT that))
@@ -335,12 +335,12 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
       (VBP do)
       (NP (RB very) (JJ little))
       (ADVP (RB actually))
-      (S (VP (TO to) (VP (VB uplift) (NP (NNS blacks))))))))",that do very little actually to uplift blacks,SBAR,(CC but),but,i think the white need for redemption has contributed to this tragic situation by shaping our policies regarding blacks in ways that may deliver the look of innocence to society and its institutions but that do very little actually to uplift blacks,S,S,S,True,True,True,False,0.9992904663085938,-0.9893999695777893,-0.9996891021728516
+      (S (VP (TO to) (VP (VB uplift) (NP (NNS blacks))))))))",that do very little actually to uplift blacks,SBAR,(CC but),but,i think the white need for redemption has contributed to this tragic situation by shaping our policies regarding blacks in ways that may deliver the look of innocence to society and its institutions but that do very little actually to uplift blacks,S,S,S,True,True,True,False,0.9992904663085938,-0.9893999695777893,-0.9996891021728516,
 "(ADJP
   (ADJP (RB much) (JJR harder))
   (CC and)
-  (ADJP (RBR more) (JJ mundane)))",much harder and more mundane,ADJP,(ADJP (RB much) (JJR harder)),much harder,ADJP,(ADJP (RBR more) (JJ mundane)),more mundane,ADJP,(CC and),and,the specific effect of this hidden need has been to bend social policy more toward reparation for black oppression than toward the much harder and more mundane work of black uplift and development,X,X,X,True,True,False,False,-0.9133251905441284,0.8787607550621033,-0.996362030506134
-(NP (JJ black) (NN uplift) (CC and) (NN development)),black uplift and development,NP,(NN uplift),uplift,NN,(NN development),development,NN,(CC and),and,the specific effect of this hidden need has been to bend social policy more toward reparation for black oppression than toward the much harder and more mundane work of black uplift and development,X,N,N,True,True,False,False,0.9986321330070496,0.8787607550621033,0.9951240420341492
+  (ADJP (RBR more) (JJ mundane)))",much harder and more mundane,ADJP,(ADJP (RB much) (JJR harder)),much harder,ADJP,(ADJP (RBR more) (JJ mundane)),more mundane,ADJP,(CC and),and,the specific effect of this hidden need has been to bend social policy more toward reparation for black oppression than toward the much harder and more mundane work of black uplift and development,X,X,X,True,True,False,False,-0.9133251905441284,0.8787607550621033,-0.996362030506134,
+(NP (JJ black) (NN uplift) (CC and) (NN development)),black uplift and development,NP,(NN uplift),uplift,NN,(NN development),development,NN,(CC and),and,the specific effect of this hidden need has been to bend social policy more toward reparation for black oppression than toward the much harder and more mundane work of black uplift and development,X,N,N,True,True,False,False,0.9986321330070496,0.8787607550621033,0.9951240420341492,0.2601493000984192
 "(PP
   (DT both)
   (PP (IN on) (NP (NNS entitlements)))
@@ -355,7 +355,7 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
   (IN on)
   (NP
     (NP (DT the) (JJ white) (NN guilt))
-    (SBAR (WHNP (WDT that)) (S (VP (VBZ generates) (NP (PRP them)))))))",on the white guilt that generates them,PP,(CC and),and,one of the effects of entitlements i believe has been to encourage in blacks a dependency both on entitlements and on the white guilt that generates them,X,X,X,True,True,False,False,0.8796653151512146,0.5729297399520874,-0.9530102610588074
+    (SBAR (WHNP (WDT that)) (S (VP (VBZ generates) (NP (PRP them)))))))",on the white guilt that generates them,PP,(CC and),and,one of the effects of entitlements i believe has been to encourage in blacks a dependency both on entitlements and on the white guilt that generates them,X,X,X,True,True,False,False,0.8796653151512146,0.5729297399520874,-0.9530102610588074,
 "(VP
   (VP
     (VB stop)
@@ -397,7 +397,7 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
         (PP (IN to) (NP (DT the) (JJ black) (NN attendant)))
         (PP
           (PP (IN from) (NP (CD one)))
-          (PP (IN to) (NP (CD twenty) (NNS dollars))))))))",convince him to increase his tip to the black attendant from one to twenty dollars,VP,(CC and),and,once i watched him stop a white businessman in the men 's room of a large hotel and convince him to increase his tip to the black attendant from one to twenty dollars,X,X,X,True,True,False,False,-0.8498055934906006,-0.7489534616470337,-0.8227899670600891
+          (PP (IN to) (NP (CD twenty) (NNS dollars))))))))",convince him to increase his tip to the black attendant from one to twenty dollars,VP,(CC and),and,once i watched him stop a white businessman in the men 's room of a large hotel and convince him to increase his tip to the black attendant from one to twenty dollars,X,X,X,True,True,False,False,-0.8498055934906006,-0.7489534616470337,-0.8227899670600891,
 "(VP
   (VP
     (VB make)
@@ -427,7 +427,7 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
         (NP (DT no) (JJ white) (NN man))
         (VP
           (MD would)
-          (VP (VB do) (PP (IN in) (NP (DT this) (NN job)))))))))",to say that no white man would do in this job,VP,(CC and),and,my friend was quick to make this point to the businessman and to say that no white man would do in this job,X,X,X,True,True,False,False,0.8893498778343201,-0.9977840781211853,-0.9749905467033386
+          (VP (VB do) (PP (IN in) (NP (DT this) (NN job)))))))))",to say that no white man would do in this job,VP,(CC and),and,my friend was quick to make this point to the businessman and to say that no white man would do in this job,X,X,X,True,True,False,False,0.8893498778343201,-0.9977840781211853,-0.9749905467033386,
 "(S
   (S
     (NP (DT this))
@@ -439,7 +439,7 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
   (NP (DT this))
   (VP
     (VBD stopped)
-    (S (NP (DT the) (NN victim)) (S (ADJP (JJ cold))))))",this stopped the victim cold,S,(S (NP (PRP$ his) (NNS eyes)) (VP (VBD turned) (ADVP (JJ inward)))),his eyes turned inward,S,(CC and),and,this stopped the victim cold and his eyes turned inward,S,S,S,True,True,True,False,0.8792011141777039,-0.9976498484611511,-0.999170184135437
+    (S (NP (DT the) (NN victim)) (S (ADJP (JJ cold))))))",this stopped the victim cold,S,(S (NP (PRP$ his) (NNS eyes)) (VP (VBD turned) (ADVP (JJ inward)))),his eyes turned inward,S,(CC and),and,this stopped the victim cold and his eyes turned inward,S,S,S,True,True,True,False,0.8792011141777039,-0.9976498484611511,-0.999170184135437,
 "(VP
   (VP
     (VBD worked)
@@ -467,8 +467,8 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
       (VP
         (VB be)
         (ADJP (JJ dark) (CC and) (JJ silent))
-        (NP (DT all) (NN day))))))",demanded that the house be dark and silent all day,VP,(CC and),and,i knew he did not get along with his father a bitter man who worked nights in a factory and demanded that the house be dark and silent all day,X,X,X,True,True,False,False,-0.8983528017997742,-0.9992738366127014,-0.9579984545707703
-(ADJP (JJ dark) (CC and) (JJ silent)),dark and silent,ADJP,(JJ dark),dark,JJ,(JJ silent),silent,JJ,(CC and),and,i knew he did not get along with his father a bitter man who worked nights in a factory and demanded that the house be dark and silent all day,X,J,J,True,True,False,False,0.54344242811203,-0.9992738366127014,-0.6960936784744263
+        (NP (DT all) (NN day))))))",demanded that the house be dark and silent all day,VP,(CC and),and,i knew he did not get along with his father a bitter man who worked nights in a factory and demanded that the house be dark and silent all day,X,X,X,True,True,False,False,-0.8983528017997742,-0.9992738366127014,-0.9579984545707703,
+(ADJP (JJ dark) (CC and) (JJ silent)),dark and silent,ADJP,(JJ dark),dark,JJ,(JJ silent),silent,JJ,(CC and),and,i knew he did not get along with his father a bitter man who worked nights in a factory and demanded that the house be dark and silent all day,X,J,J,True,True,False,False,0.54344242811203,-0.9992738366127014,-0.6960936784744263,0.3484167754650116
 "(S
   (S
     (NP (PRP$ my) (NN friend))
@@ -522,7 +522,7 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
                   (NP (PRP$ his) (JJ own) (NN pain))
                   (PP
                     (IN in)
-                    (NP (DT this) (JJ silly) (NN experiment))))))))))))",i knew he had not meant to exploit his own pain in this silly experiment,S,(CC but),but,my friend blamed his father 's bitterness on racism but i knew he had not meant to exploit his own pain in this silly experiment,S,S,S,True,True,True,False,-0.9947305917739868,-0.9992640614509583,-0.9996716976165771
+                    (NP (DT this) (JJ silly) (NN experiment))))))))))))",i knew he had not meant to exploit his own pain in this silly experiment,S,(CC but),but,my friend blamed his father 's bitterness on racism but i knew he had not meant to exploit his own pain in this silly experiment,S,S,S,True,True,True,False,-0.9947305917739868,-0.9992640614509583,-0.9996716976165771,
 "(S
   (S
     (NP (PRP$ your) (NN father))
@@ -534,7 +534,7 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
   (NP (PRP$ your) (NN father))
   (VP (VBD had) (NP (PDT all) (DT the) (JJ goddamn) (NNS chances))))",your father had all the goddamn chances,S,"(S
   (NP (PRP you))
-  (VP (VBP know) (SBAR (S (NP (PRP he)) (VP (VBD did))))))",you know he did,S,(CC and),and,your father had all the goddamn chances and you know he did,S,S,S,True,True,True,False,-0.9090558886528015,0.9381919503211975,0.8998417258262634
+  (VP (VBP know) (SBAR (S (NP (PRP he)) (VP (VBD did))))))",you know he did,S,(CC and),and,your father had all the goddamn chances and you know he did,S,S,S,True,True,True,False,-0.9090558886528015,0.9381919503211975,0.8998417258262634,
 "(VP
   (VP
     (VBP sell)
@@ -544,7 +544,7 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
   (VP (VBP make) (NP (NNS thousands))))",sell printing presses to black people and make thousands,VP,"(VP
   (VBP sell)
   (NP (VBG printing) (NNS presses))
-  (PP (IN to) (NP (JJ black) (NNS people))))",sell printing presses to black people,VP,(VP (VBP make) (NP (NNS thousands))),make thousands,VP,(CC and),and,you sell printing presses to black people and make thousands and your father probably lives down in fat city florida all because you 're white,X,X,X,True,True,False,False,-0.7413259148597717,-0.754299521446228,0.9739547371864319
+  (PP (IN to) (NP (JJ black) (NNS people))))",sell printing presses to black people,VP,(VP (VBP make) (NP (NNS thousands))),make thousands,VP,(CC and),and,you sell printing presses to black people and make thousands and your father probably lives down in fat city florida all because you 're white,X,X,X,True,True,False,False,-0.7413259148597717,-0.754299521446228,0.9739547371864319,
 "(S
   (S
     (NP (PRP you))
@@ -584,8 +584,8 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
     (SBAR
       (ADVP (DT all))
       (IN because)
-      (S (NP (PRP you)) (VP (VBP 're) (ADJP (JJ white)))))))",your father probably lives down in fat city florida all because you 're white,S,(CC and),and,you sell printing presses to black people and make thousands and your father probably lives down in fat city florida all because you 're white,S,S,S,True,True,True,False,0.976477324962616,-0.754299521446228,-0.7624122500419617
-(NP (NP (PRP$ my) (NN friend)) (CC and) (NP (PRP i))),my friend and i,NP,(NP (PRP$ my) (NN friend)),my friend,NP,(NP (PRP i)),i,NP,(CC and),and,when he was gone my friend and i could not look at the old man nor could we look at each other,X,X,X,True,True,False,False,0.9987623691558838,0.9572292566299438,0.7267126441001892
+      (S (NP (PRP you)) (VP (VBP 're) (ADJP (JJ white)))))))",your father probably lives down in fat city florida all because you 're white,S,(CC and),and,you sell printing presses to black people and make thousands and your father probably lives down in fat city florida all because you 're white,S,S,S,True,True,True,False,0.976477324962616,-0.754299521446228,-0.7624122500419617,
+(NP (NP (PRP$ my) (NN friend)) (CC and) (NP (PRP i))),my friend and i,NP,(NP (PRP$ my) (NN friend)),my friend,NP,(NP (PRP i)),i,NP,(CC and),and,when he was gone my friend and i could not look at the old man nor could we look at each other,X,X,X,True,True,False,False,0.9987623691558838,0.9572292566299438,0.7267126441001892,
 "(VP
   (VP
     (MD could)
@@ -601,16 +601,16 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
   (VP (VB look) (PP (IN at) (NP (DT the) (JJ old) (NN man)))))",could not look at the old man,VP,"(SINV
   (MD could)
   (NP (PRP we))
-  (VP (VB look) (PP (IN at) (NP (DT each) (JJ other)))))",could we look at each other,SINV,(CC nor),nor,when he was gone my friend and i could not look at the old man nor could we look at each other,X,X,S,False,False,False,False,-0.8702523708343506,0.9572292566299438,-0.8858355283737183
+  (VP (VB look) (PP (IN at) (NP (DT each) (JJ other)))))",could we look at each other,SINV,(CC nor),nor,when he was gone my friend and i could not look at the old man nor could we look at each other,X,X,S,False,False,False,False,-0.8702523708343506,0.9572292566299438,-0.8858355283737183,
 "(NP
   (NP (NP (DT an) (NN encounter)) (PP (IN of) (NP (NNS people))))
   (CC but)
   (PP
     (IN of)
-    (NP (JJ historical) (NNS grudges) (CC and) (NNS guilts))))",an encounter of people but of historical grudges and guilts,NP,(NP (NP (DT an) (NN encounter)) (PP (IN of) (NP (NNS people)))),an encounter of people,NP,(PP (IN of) (NP (JJ historical) (NNS grudges) (CC and) (NNS guilts))),of historical grudges and guilts,PP,(CC but),but,it was not an encounter of people but of historical grudges and guilts,X,X,X,False,True,False,False,0.9846068620681763,-0.8310214281082153,-0.8906202912330627
-(NP (JJ historical) (NNS grudges) (CC and) (NNS guilts)),historical grudges and guilts,NP,(NNS grudges),grudges,NNS,(NNS guilts),guilts,NNS,(CC and),and,it was not an encounter of people but of historical grudges and guilts,X,N,N,True,True,False,False,-0.9967893362045288,-0.8310214281082153,-0.9983789920806885
-(NP (PRP$ his) (JJ own) (JJ racial) (NN pain) (CC and) (NN anger)),his own racial pain and anger,NP,(NN pain),pain,NN,(NN anger),anger,NN,(CC and),and,in achieving this the second thing my friend did was something he had not intended to do something that ultimately brought him as much shame as he was doling out he made a display of his own racial pain and anger,X,N,N,True,True,False,False,-0.9999357461929321,-0.9996165037155151,-0.9972922205924988
-(NP (DT the) (NN pain) (CC and) (NN anger)),the pain and anger,NP,(NN pain),pain,NN,(NN anger),anger,NN,(CC and),and,-LRB- what brought him shame was not the pain and anger but his trading on them for what turned out to be a mere twenty bucks,X,N,N,True,True,False,False,-0.9999357461929321,0.7867096066474915,-0.9972922205924988
+    (NP (JJ historical) (NNS grudges) (CC and) (NNS guilts))))",an encounter of people but of historical grudges and guilts,NP,(NP (NP (DT an) (NN encounter)) (PP (IN of) (NP (NNS people)))),an encounter of people,NP,(PP (IN of) (NP (JJ historical) (NNS grudges) (CC and) (NNS guilts))),of historical grudges and guilts,PP,(CC but),but,it was not an encounter of people but of historical grudges and guilts,X,X,X,False,True,False,False,0.9846068620681763,-0.8310214281082153,-0.8906202912330627,
+(NP (JJ historical) (NNS grudges) (CC and) (NNS guilts)),historical grudges and guilts,NP,(NNS grudges),grudges,NNS,(NNS guilts),guilts,NNS,(CC and),and,it was not an encounter of people but of historical grudges and guilts,X,N,N,True,True,False,False,-0.9967893362045288,-0.8310214281082153,-0.9983789920806885,0.2662019729614258
+(NP (PRP$ his) (JJ own) (JJ racial) (NN pain) (CC and) (NN anger)),his own racial pain and anger,NP,(NN pain),pain,NN,(NN anger),anger,NN,(CC and),and,in achieving this the second thing my friend did was something he had not intended to do something that ultimately brought him as much shame as he was doling out he made a display of his own racial pain and anger,X,N,N,True,True,False,False,-0.9999357461929321,-0.9996165037155151,-0.9972922205924988,0.3882899582386017
+(NP (DT the) (NN pain) (CC and) (NN anger)),the pain and anger,NP,(NN pain),pain,NN,(NN anger),anger,NN,(CC and),and,-LRB- what brought him shame was not the pain and anger but his trading on them for what turned out to be a mere twenty bucks,X,N,N,True,True,False,False,-0.9999357461929321,0.7867096066474915,-0.9972922205924988,0.3882899582386017
 "(NP
   (NP (DT the) (NN pain) (CC and) (NN anger))
   (CC but)
@@ -646,8 +646,8 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
               (TO to)
               (VP
                 (VB be)
-                (NP (DT a) (JJ mere) (CD twenty) (NNS bucks))))))))))",his trading on them for what turned out to be a mere twenty bucks,NP,(CC but),but,-LRB- what brought him shame was not the pain and anger but his trading on them for what turned out to be a mere twenty bucks,X,X,X,True,True,False,False,-0.960859477519989,0.7867096066474915,-0.9795739650726318
-(NP (NN selfishness) (CC and) (NN escapism)),selfishness and escapism,NP,(NN selfishness),selfishness,NN,(NN escapism),escapism,NN,(CC and),and,when selfishness and escapism are at work we are no longer interested in the source of our guilt and therefore no longer concerned with an authentic redemption from it,X,N,N,True,True,False,False,-0.9967496395111084,-0.9997530579566956,0.9995725750923157
+                (NP (DT a) (JJ mere) (CD twenty) (NNS bucks))))))))))",his trading on them for what turned out to be a mere twenty bucks,NP,(CC but),but,-LRB- what brought him shame was not the pain and anger but his trading on them for what turned out to be a mere twenty bucks,X,X,X,True,True,False,False,-0.960859477519989,0.7867096066474915,-0.9795739650726318,
+(NP (NN selfishness) (CC and) (NN escapism)),selfishness and escapism,NP,(NN selfishness),selfishness,NN,(NN escapism),escapism,NN,(CC and),and,when selfishness and escapism are at work we are no longer interested in the source of our guilt and therefore no longer concerned with an authentic redemption from it,X,N,N,True,True,False,False,-0.9967496395111084,-0.9997530579566956,0.9995725750923157,0.2815191149711609
 "(VP
   (VP
     (VBP are)
@@ -677,7 +677,7 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
       (IN in)
       (NP
         (NP (DT the) (NN source))
-        (PP (IN of) (NP (PRP$ our) (NN guilt)))))))",are no longer interested in the source of our guilt,VP,(ADVP (RB therefore)),therefore,ADVP,(CC and),and,when selfishness and escapism are at work we are no longer interested in the source of our guilt and therefore no longer concerned with an authentic redemption from it,X,X,X,False,True,False,False,-0.9999536275863647,-0.9997530579566956,0.7785567045211792
+        (PP (IN of) (NP (PRP$ our) (NN guilt)))))))",are no longer interested in the source of our guilt,VP,(ADVP (RB therefore)),therefore,ADVP,(CC and),and,when selfishness and escapism are at work we are no longer interested in the source of our guilt and therefore no longer concerned with an authentic redemption from it,X,X,X,False,True,False,False,-0.9999536275863647,-0.9997530579566956,0.7785567045211792,
 "(PP
   (PP
     (IN for)
@@ -693,7 +693,7 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
   (IN for)
   (NP
     (NP (DT the) (NN escape))
-    (SBAR (S (NP (PRP it)) (VP (VBD afforded) (NP (PRP him)))))))",for the escape it afforded him,PP,(CC and),and,he did it selfishly for the appearance of concern and for the escape it afforded him,X,X,X,True,True,False,False,-0.5326921343803406,0.5949908494949341,0.9240391850471497
+    (SBAR (S (NP (PRP it)) (VP (VBD afforded) (NP (PRP him)))))))",for the escape it afforded him,PP,(CC and),and,he did it selfishly for the appearance of concern and for the escape it afforded him,X,X,X,True,True,False,False,-0.5326921343803406,0.5949908494949341,0.9240391850471497,
 "(VP
   (VP (VBD evoked) (NP (JJ white) (NN guilt)))
   (CC and)
@@ -723,7 +723,7 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
     (NP (PRP it))
     (NP
       (NP (DT a) (NN force))
-      (PP (IN in) (NP (JJ american) (NNS institutions))))))",made it a force in american institutions,VP,(CC and),and,black power evoked white guilt and made it a force in american institutions very much in the same way as my friend brought it to life in the businessman,X,X,X,True,True,False,False,-0.9745974540710449,0.996663510799408,0.998874843120575
+      (PP (IN in) (NP (JJ american) (NNS institutions))))))",made it a force in american institutions,VP,(CC and),and,black power evoked white guilt and made it a force in american institutions very much in the same way as my friend brought it to life in the businessman,X,X,X,True,True,False,False,-0.9745974540710449,0.996663510799408,0.998874843120575,
 "(NP
   (NP
     (NP (DT a) (JJ profound) (NN anger))
@@ -759,11 +759,11 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
     (IN that)
     (S
       (NP (EX there))
-      (VP (MD should) (VP (VB be) (NP (NNS reparations)))))))",an equally profound feeling that there should be reparations,NP,(CC and),and,always at the heart of black power in whatever form has been a profound anger at what was done to blacks and an equally profound feeling that there should be reparations,X,X,X,True,True,False,False,-0.77700275182724,0.9918195009231567,0.7693048715591431
+      (VP (MD should) (VP (VB be) (NP (NNS reparations)))))))",an equally profound feeling that there should be reparations,NP,(CC and),and,always at the heart of black power in whatever form has been a profound anger at what was done to blacks and an equally profound feeling that there should be reparations,X,X,X,True,True,False,False,-0.77700275182724,0.9918195009231567,0.7693048715591431,
 "(NP
   (NP (NN senator) (JJ hubert) (NNP humphrey))
   (CC and)
-  (NP (NNS others)))",senator hubert humphrey and others,NP,(NP (NN senator) (JJ hubert) (NNP humphrey)),senator hubert humphrey,NP,(NP (NNS others)),others,NP,(CC and),and,in 1964 one of the assurances senator hubert humphrey and others had to give congress to get the landmark civil rights bill passed was that the bill would not in any way require employers to use racial preferences to rectify racial imbalances,X,X,X,True,True,False,False,0.9924712181091309,-0.8259318470954895,0.9633515477180481
+  (NP (NNS others)))",senator hubert humphrey and others,NP,(NP (NN senator) (JJ hubert) (NNP humphrey)),senator hubert humphrey,NP,(NP (NNS others)),others,NP,(CC and),and,in 1964 one of the assurances senator hubert humphrey and others had to give congress to get the landmark civil rights bill passed was that the bill would not in any way require employers to use racial preferences to rectify racial imbalances,X,X,X,True,True,False,False,0.9924712181091309,-0.8259318470954895,0.9633515477180481,
 "(S
   (S
     (NP (NNS blacks))
@@ -807,7 +807,7 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
           (IN as)
           (ADJP
             (ADJP (RB generally) (JJR less))
-            (PP (IN than) (NP (NNS others)))))))))",as such they must be seen as generally less than others,S,(CC and),and,blacks then become a means to this redemption and as such they must be seen as generally less than others,S,S,S,True,True,True,False,0.6369844079017639,0.8669865131378174,-0.9984546899795532
+            (PP (IN than) (NP (NNS others)))))))))",as such they must be seen as generally less than others,S,(CC and),and,blacks then become a means to this redemption and as such they must be seen as generally less than others,S,S,S,True,True,True,False,0.6369844079017639,0.8669865131378174,-0.9984546899795532,
 "(VP
   (VP (MD can) (VP (VB negotiate) (NP (NNS entitlements))))
   (CC but)
@@ -817,7 +817,7 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
     (VB see)
     (PP
       (IN as)
-      (NP (NP (NNS people)) (PP (IN like) (NP (PRP themselves)))))))",can negotiate entitlements but never fully see as people like themselves,VP,(VP (MD can) (VP (VB negotiate) (NP (NNS entitlements)))),can negotiate entitlements,VP,(ADVP (RB never)),never,ADVP,(CC but),but,they are seen exclusively along the dimension of their victimization so that they become different people with whom whites can negotiate entitlements but never fully see as people like themselves,X,X,X,False,True,False,False,0.9569310545921326,-0.993051290512085,-0.9581319093704224
+      (NP (NP (NNS people)) (PP (IN like) (NP (PRP themselves)))))))",can negotiate entitlements but never fully see as people like themselves,VP,(VP (MD can) (VP (VB negotiate) (NP (NNS entitlements)))),can negotiate entitlements,VP,(ADVP (RB never)),never,ADVP,(CC but),but,they are seen exclusively along the dimension of their victimization so that they become different people with whom whites can negotiate entitlements but never fully see as people like themselves,X,X,X,False,True,False,False,0.9569310545921326,-0.993051290512085,-0.9581319093704224,
 "(S
   (S
     (NP (DT this))
@@ -861,8 +861,8 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
                           (VP (VBP apply)))))))))))))))",this of course is not racism and yet it has the same effect as racism since it makes blacks something of a separate species for whom normal standards and values do not automatically apply,S,"(S
   (NP (DT this))
   (ADVP (RB of) (RB course))
-  (VP (VBZ is) (RB not) (NP (NN racism))))",this of course is not racism,S,(ADVP (RB yet)),yet,ADVP,(CC and),and,this of course is not racism and yet it has the same effect as racism since it makes blacks something of a separate species for whom normal standards and values do not automatically apply,S,S,X,False,False,False,False,0.9946866035461426,-0.715264618396759,0.6517378687858582
-(NP (JJ normal) (NNS standards) (CC and) (NNS values)),normal standards and values,NP,(NNS standards),standards,NNS,(NNS values),values,NNS,(CC and),and,this of course is not racism and yet it has the same effect as racism since it makes blacks something of a separate species for whom normal standards and values do not automatically apply,X,N,N,True,True,False,False,0.9925600290298462,-0.715264618396759,0.9990741014480591
+  (VP (VBZ is) (RB not) (NP (NN racism))))",this of course is not racism,S,(ADVP (RB yet)),yet,ADVP,(CC and),and,this of course is not racism and yet it has the same effect as racism since it makes blacks something of a separate species for whom normal standards and values do not automatically apply,S,S,X,False,False,False,False,0.9946866035461426,-0.715264618396759,0.6517378687858582,
+(NP (JJ normal) (NNS standards) (CC and) (NNS values)),normal standards and values,NP,(NNS standards),standards,NNS,(NNS values),values,NNS,(CC and),and,this of course is not racism and yet it has the same effect as racism since it makes blacks something of a separate species for whom normal standards and values do not automatically apply,X,N,N,True,True,False,False,0.9925600290298462,-0.715264618396759,0.9990741014480591,0.3766685426235199
 "(VP
   (VP
     (VP
@@ -926,7 +926,7 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
       (VP
         (VB bring)
         (NP (PRP$ their) (NNS grades))
-        (PP (RB up) (PP (IN to) (NP (NN par))))))))",demand in kind that black students bring their grades up to par,VP,(CC and),and,though blacks have the lowest grade point average of any racial group in american universities administrators never sit down with them and demand in kind that black students bring their grades up to par,X,X,X,True,True,False,False,-0.9951311349868774,0.9673987627029419,0.9928147792816162
+        (PP (RB up) (PP (IN to) (NP (NN par))))))))",demand in kind that black students bring their grades up to par,VP,(CC and),and,though blacks have the lowest grade point average of any racial group in american universities administrators never sit down with them and demand in kind that black students bring their grades up to par,X,X,X,True,True,False,False,-0.9951311349868774,0.9673987627029419,0.9928147792816162,
 "(VP
   (VP (VB discourage) (NP (JJ racial) (NN separatism)))
   (CC and)
@@ -938,7 +938,7 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
   (VB encourage)
   (NP
     (NP (JJR higher) (JJ academic) (NN performance))
-    (PP (IN for) (NP (JJ black) (NNS students)))))",encourage higher academic performance for black students,VP,(CC and),and,it also cuts administrators off from their own values which would most certainly discourage racial separatism and encourage higher academic performance for black students,X,X,X,True,True,False,False,0.7410022616386414,-0.7239632606506348,0.9909974336624146
+    (PP (IN for) (NP (JJ black) (NNS students)))))",encourage higher academic performance for black students,VP,(CC and),and,it also cuts administrators off from their own values which would most certainly discourage racial separatism and encourage higher academic performance for black students,X,X,X,True,True,False,False,0.7410022616386414,-0.7239632606506348,0.9909974336624146,
 "(VP
   (VP
     (VBG giving)
@@ -962,4 +962,4 @@ parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,rig
   (PP (IN in) (NP (DT the) (NN tip) (NN plate)))
   (PP
     (IN on)
-    (NP (NP (DT the) (NN way)) (PP (IN out) (NP (DT the) (NN door))))))",leaving twenty dollars in the tip plate on the way out the door,VP,(CC and),and,there is no difference between giving black students a separate lounge and leaving twenty dollars in the tip plate on the way out the door,X,X,X,True,True,False,False,0.9936316609382629,-0.9960440397262573,-0.9948084950447083
+    (NP (NP (DT the) (NN way)) (PP (IN out) (NP (DT the) (NN door))))))",leaving twenty dollars in the tip plate on the way out the door,VP,(CC and),and,there is no difference between giving black students a separate lounge and leaving twenty dollars in the tip plate on the way out the door,X,X,X,True,True,False,False,0.9936316609382629,-0.9960440397262573,-0.9948084950447083,
