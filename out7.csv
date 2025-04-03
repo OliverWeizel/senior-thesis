@@ -1,0 +1,182 @@
+parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,right_text,right_type,cc_tree,cc_text,base_text,parent_funnel,left_funnel,right_funnel,same_type,same_funnel,clausal_coord,corrective,anchored,left_sent,base_sent,right_sent,cosine,left_vad,left_valence,left_arousal,left_dominance,right_vad,right_valence,right_arousal,right_dominance,vad_cosine,vad_distance
+(NP (NP (PRP she)) (CC and) (NP (CD two) (NNS fellows))),she and two fellows,NP,(NP (NP (PRP she))),she,NP,(NP (NP (CD two) (NNS fellows))),two fellows,NP,(CC and),and,until about seven years ago she and two fellows were the scattergood singers very successful singers of liberal folk tunes who came damn close to winning a grammy,N,N,N,True,True,False,False,False,0.8468530774116516,0.9363792538642883,0.9914973378181458,,[nan nan nan],,,,[0.52  0.2   0.404],0.52,0.2,0.404,,
+"(VP
+  (VP
+    (VBD had)
+    (ADVP (RB recently))
+    (VP
+      (VBN rounded)
+      (PRT (RP up))
+      (NP (CD two) (JJ new) (NNS fellows))))
+  (CC and)
+  (VP
+    (VBD was)
+    (VP
+      (VBG hoping)
+      (S
+        (VP
+          (TO to)
+          (VP
+            (VB revive)
+            (NP (DT the) (JJ scattergood) (NNS singers))))))))",had recently rounded up two new fellows and was hoping to revive the scattergood singers,VP,"(VP
+  (VP
+    (VBD had)
+    (ADVP (RB recently))
+    (VP
+      (VBN rounded)
+      (PRT (RP up))
+      (NP (CD two) (JJ new) (NNS fellows)))))",had recently rounded up two new fellows,VP,"(VP
+  (VP
+    (VBD was)
+    (VP
+      (VBG hoping)
+      (S
+        (VP
+          (TO to)
+          (VP
+            (VB revive)
+            (NP (DT the) (JJ scattergood) (NNS singers))))))))",was hoping to revive the scattergood singers,VP,(CC and),and,mavis had recently rounded up two new fellows and was hoping to revive the scattergood singers,V,V,V,True,True,False,False,False,0.9880317449569702,0.9849105477333069,-0.5103058815002441,,[0.67633333 0.36033333 0.46066667],0.6763333333333333,0.36033333333333334,0.4606666666666667,[0.68   0.6245 0.616 ],0.68,0.6245,0.616,0.9761302393471804,0.30647335392602515
+"(S
+  (S
+    (NP (PRP$ my) (NN name))
+    (PP (IN by) (NP (DT the) (NN way)))
+    (VP (VBZ is) (NP (JJ frank) (NN whitney))))
+  (CC and)
+  (S
+    (NP (PRP i))
+    (VP
+      (VBP 'm)
+      (NP
+        (DT a)
+        (VBN retired)
+        (NML (NN advertising) (NN agency))
+        (NN art)
+        (NN director)))))",my name by the way is frank whitney and i 'm a retired advertising agency art director,S,"(S
+  (S
+    (NP (PRP$ my) (NN name))
+    (PP (IN by) (NP (DT the) (NN way)))
+    (VP (VBZ is) (NP (JJ frank) (NN whitney)))))",my name by the way is frank whitney,S,"(S
+  (S
+    (NP (PRP i))
+    (VP
+      (VBP 'm)
+      (NP
+        (DT a)
+        (VBN retired)
+        (NML (NN advertising) (NN agency))
+        (NN art)
+        (NN director)))))",i 'm a retired advertising agency art director,S,(CC and),and,my name by the way is frank whitney and i 'm a retired advertising agency art director,S,S,S,True,True,True,False,False,0.99932861328125,0.9991872906684875,-0.650218665599823,,[0.55933333 0.311      0.47966667],0.5593333333333333,0.311,0.4796666666666667,[0.5704 0.4206 0.6062],0.5704,0.42060000000000003,0.6062,0.9929573926540465,0.16776565666296409
+(NP (NP (DT a) (JJ real) (NN stud)) (CC but) (NP (NN truth))),a real stud but truth,NP,(NP (NP (DT a) (JJ real) (NN stud))),a real stud,NP,(NP (NP (NN truth))),truth,NP,(CC but),but,especially edmond who 's a real stud but truth to tell a lousy banjo picker,N,N,N,True,True,False,False,False,0.998346209526062,0.5802549719810486,0.9987999200820923,,[0.6415 0.5205 0.613 ],0.6415,0.5205,0.613,[0.971 0.4   0.685],0.971,0.4,0.685,0.9699206471680979,0.3581542963584271
+"(FRAG
+  (CC or)
+  (ADVP (RB rather))
+  (RB not)
+  (NP (PRP they))
+  (CC but)
+  (NP (FW dr.) (NN wallace) (NN dowling)))",or rather not they but dr. wallace dowling,FRAG,(NP (NP (PRP they))),they,NP,(NP (NP (FW dr.) (NN wallace) (NN dowling))),dr. wallace dowling,NP,(CC but),but,or rather not they but dr. wallace dowling,X,N,N,True,True,False,False,False,0.8833190202713013,-0.9275692701339722,0.9836170673370361,,[nan nan nan],,,,[nan nan nan],,,,,
+"(VP
+  (VP (VBD shot) (PP (IN to) (NP (PRP$ my) (NNS feet))))
+  (CC and)
+  (VP
+    (VBD began)
+    (S (VP (TO to) (VP (VB pace) (NP (DT the) (JJ big) (NN room)))))))",shot to my feet and began to pace the big room,VP,(VP (VP (VBD shot) (PP (IN to) (NP (PRP$ my) (NNS feet))))),shot to my feet,VP,"(VP
+  (VP
+    (VBD began)
+    (S (VP (TO to) (VP (VB pace) (NP (DT the) (JJ big) (NN room)))))))",began to pace the big room,VP,(CC and),and,i shot to my feet and began to pace the big room,V,V,V,True,True,False,False,False,0.9977244734764099,0.9320412278175354,-0.9694013595581055,,[0.327  0.495  0.4305],0.327,0.495,0.4305,[0.68033333 0.417      0.549     ],0.6803333333333333,0.417,0.549,0.9369883004898724,0.3807501732690931
+"(S
+  (NP (PRP$ my) (NNS knees))
+  (CC and)
+  (S
+    (NP (PRP i))
+    (VP
+      (VBD were)
+      (VP
+        (VBG standing)
+        (PP
+          (IN in)
+          (NP
+            (PRP$ our)
+            (JJ large)
+            (NML (NN redwood) (CC and) (NN copper))
+            (NN kitchen)))))))",my knees and i were standing in our large redwood and copper kitchen,S,(NP (NP (PRP$ my) (NNS knees))),my knees,NP,"(S
+  (S
+    (NP (PRP i))
+    (VP
+      (VBD were)
+      (VP
+        (VBG standing)
+        (PP
+          (IN in)
+          (NP
+            (PRP$ our)
+            (JJ large)
+            (NML (NN redwood) (CC and) (NN copper))
+            (NN kitchen)))))))",i were standing in our large redwood and copper kitchen,S,(CC and),and,my knees and i were standing in our large redwood and copper kitchen,S,N,S,False,False,False,False,False,-0.9941907525062561,0.5789265632629395,0.9834620952606201,,[nan nan nan],,,,[0.636  0.3452 0.5004],0.6359999999999999,0.34519999999999995,0.5004000000000001,,
+(NML (NN redwood) (CC and) (NN copper)),redwood and copper,NML,(NN (NN redwood)),redwood,NN,(NN (NN copper)),copper,NN,(CC and),and,my knees and i were standing in our large redwood and copper kitchen,X,N,N,True,True,False,False,False,0.9807541370391846,0.5789265632629395,0.9782140254974365,0.25293105840682983,[0.592 0.35  0.443],0.592,0.35,0.443,[0.58 0.26 0.5 ],0.58,0.26,0.5,0.9913798466772792,0.1072054103112338
+"(FRAG
+  (S (ADJP (RB okay)))
+  (CC but)
+  (S
+    (NP (PRP i))
+    (VP
+      (MD 'll)
+      (VP (VB give) (NP (PRP him)) (NP (DT the) (NN skinny))))))",okay but i 'll give him the skinny,FRAG,(S (S (ADJP (RB okay)))),okay,S,"(S
+  (S
+    (NP (PRP i))
+    (VP
+      (MD 'll)
+      (VP (VB give) (NP (PRP him)) (NP (DT the) (NN skinny))))))",i 'll give him the skinny,S,(CC but),but,okay but i 'll give him the skinny,X,S,S,True,True,True,False,False,-0.5601298213005066,-0.992077648639679,-0.9995843768119812,,[nan nan nan],,,,[0.5415 0.3395 0.399 ],0.5415,0.3395,0.399,,
+"(S
+  (S (NP (PRP i)) (VP (VBD stopped) (S (VP (VBG whisking)))))
+  (CC and)
+  (S
+    (NP (NNS goosebumps))
+    (VP (VBD visited) (NP (DT both) (PRP$ my) (NNS arms)))))",i stopped whisking and goosebumps visited both my arms,S,(S (S (NP (PRP i)) (VP (VBD stopped) (S (VP (VBG whisking)))))),i stopped whisking,S,"(S
+  (S
+    (NP (NNS goosebumps))
+    (VP (VBD visited) (NP (DT both) (PRP$ my) (NNS arms)))))",goosebumps visited both my arms,S,(CC and),and,i stopped whisking and goosebumps visited both my arms,S,S,S,True,True,True,False,False,-0.9991003274917603,-0.9999475479125977,-0.8583323359489441,,[nan nan nan],,,,[0.464 0.395 0.483],0.464,0.395,0.483,,
+"(S
+  (S
+    (NP (NN dowling))
+    (VP
+      (VBD wanted)
+      (S
+        (VP
+          (TO to)
+          (VP
+            (VB run)
+            (NP (DT a) (JJ few) (JJ human) (NNS tests))
+            (ADVP (RB right) (RB now)))))))
+  (CC but)
+  (NP (DT the) (JJR higher) (NNS ups))
+  (VP (VBD nixed) (IN that)))",dowling wanted to run a few human tests right now but the higher ups nixed that,S,"(S
+  (S
+    (NP (NN dowling))
+    (VP
+      (VBD wanted)
+      (S
+        (VP
+          (TO to)
+          (VP
+            (VB run)
+            (NP (DT a) (JJ few) (JJ human) (NNS tests))
+            (ADVP (RB right) (RB now))))))))",dowling wanted to run a few human tests right now,S,(NP (NP (DT the) (JJR higher) (NNS ups))),the higher ups,NP,(CC but),but,dowling wanted to run a few human tests right now but the higher ups nixed that,S,S,N,False,False,False,False,False,-0.8348868489265442,-0.9962912797927856,0.9985887408256531,,[0.683      0.48433333 0.61933333],0.6830000000000002,0.4843333333333333,0.6193333333333334,[0.866 0.528 0.713],0.866,0.528,0.713,0.9981295882396989,0.21016475018951714
+(ADJP (JJ bright) (CC and) (JJ early)),bright and early,ADJP,(JJ (JJ bright)),bright,JJ,(JJ (JJ early)),early,JJ,(CC and),and,bright and early maaana kiddo we 'll start hunting for him,J,J,J,True,True,False,False,False,0.9983312487602234,0.9930296540260315,0.6493145823478699,0.13438352942466736,[0.89  0.527 0.812],0.89,0.527,0.812,[0.633 0.373 0.426],0.633,0.373,0.426,0.9901979384784078,0.48863176319187446
+"(VP
+  (VB trust)
+  (S
+    (NP (DT the) (NN fbi))
+    (VP (TO to) (VP (VB track) (NP (PRP him)) (PRT (RP down)))))
+  (CC nor)
+  (NP (DT the)))",trust the fbi to track him down nor the,VP,"(S
+  (S
+    (NP (DT the) (NN fbi))
+    (VP (TO to) (VP (VB track) (NP (PRP him)) (PRT (RP down))))))",the fbi to track him down,S,(NP (NP (DT the))),the,NP,(CC nor),nor,you ca n't trust the fbi to track him down nor the ...,V,S,N,False,False,False,True,False,-0.7794785499572754,-0.982421338558197,0.7761563658714294,,[0.448 0.433 0.526],0.448,0.433,0.526,[nan nan nan],,,,,
+"(NP
+  (NP (JJ nice) (NN try) (NN buster))
+  (CC but)
+  (NP (DT no) (NN cheroot)))",nice try buster but no cheroot,NP,(NP (NP (JJ nice) (NN try) (NN buster))),nice try buster,NP,(NP (NP (DT no) (NN cheroot))),no cheroot,NP,(CC but),but,i was about to suggest they come into the living room when i found myself saying nice try buster but no cheroot,N,N,N,True,True,False,False,False,0.8921140432357788,-0.9993351101875305,-0.995751142501831,,[0.66766667 0.49466667 0.563     ],0.6676666666666667,0.49466666666666664,0.5630000000000001,[nan nan nan],,,,,
+"(NP
+  (NP (DT the) (NN spread) (NN eagle))
+  (CC and)
+  (NP (DT the) (NML (JJ colonial) (NN flag)) (NNS images)))",the spread eagle and the colonial flag images,NP,(NP (NP (DT the) (NN spread) (NN eagle))),the spread eagle,NP,(NP (NP (DT the) (NML (JJ colonial) (NN flag)) (NNS images))),the colonial flag images,NP,(CC and),and,it lacks the spread eagle and the colonial flag images that are supposed to appear behind your portrait,N,N,N,True,True,False,False,False,0.9971767663955688,-0.999962329864502,0.9948830604553223,,[0.587  0.5885 0.665 ],0.587,0.5885,0.665,[0.5725 0.3525 0.5745],0.5725,0.35250000000000004,0.5745,0.9831916349800257,0.25317286584466353

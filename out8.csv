@@ -1,0 +1,573 @@
+parent_tree,parent_text,parent_type,left_tree,left_text,left_type,right_tree,right_text,right_type,cc_tree,cc_text,base_text,parent_funnel,left_funnel,right_funnel,same_type,same_funnel,clausal_coord,corrective,anchored,left_sent,base_sent,right_sent,cosine,left_vad,left_valence,left_arousal,left_dominance,right_vad,right_valence,right_arousal,right_dominance,vad_cosine,vad_distance
+"(S
+  (S
+    (NP (PRP he))
+    (VP
+      (VBD did)
+      (RB n't)
+      (VP
+        (VB make)
+        (NP (PRP it))
+        (PP (IN to) (NP (DT the) (NN weekend))))))
+  (CC but)
+  (S
+    (S
+      (ADVP (RB simply))
+      (IN by)
+      (S
+        (VP
+          (VBG playing)
+          (NP (PRP$ his) (NN way))
+          (PP (IN from) (NP (NN zambia)))
+          (PP
+            (IN to)
+            (NP
+              (NP (VBN winged) (NN foot))
+              (FW madalitso)
+              (NNP muthiya))))))
+    (VP
+      (VBD was)
+      (NP (DT a) (JJ big) (NN winner))
+      (PP (IN at) (NP (DT the) (JJ u.s.) (NN open))))))",he did n't make it to the weekend but simply by playing his way from zambia to winged foot madalitso muthiya was a big winner at the u.s. open,S,"(S
+  (S
+    (NP (PRP he))
+    (VP
+      (VBD did)
+      (RB n't)
+      (VP
+        (VB make)
+        (NP (PRP it))
+        (PP (IN to) (NP (DT the) (NN weekend)))))))",he did n't make it to the weekend,S,"(S
+  (S
+    (S
+      (ADVP (RB simply))
+      (IN by)
+      (S
+        (VP
+          (VBG playing)
+          (NP (PRP$ his) (NN way))
+          (PP (IN from) (NP (NN zambia)))
+          (PP
+            (IN to)
+            (NP
+              (NP (VBN winged) (NN foot))
+              (FW madalitso)
+              (NNP muthiya))))))
+    (VP
+      (VBD was)
+      (NP (DT a) (JJ big) (NN winner))
+      (PP (IN at) (NP (DT the) (JJ u.s.) (NN open))))))",simply by playing his way from zambia to winged foot madalitso muthiya was a big winner at the u.s. open,S,(CC but),but,he did n't make it to the weekend but simply by playing his way from zambia to winged foot madalitso muthiya was a big winner at the u.s. open,S,S,S,True,True,True,True,True,-0.9968305230140686,0.79307621717453,0.9885548949241638,,[0.764  0.5225 0.4995],0.764,0.5225,0.4995,[0.64757143 0.43714286 0.55042857],0.6475714285714285,0.43714285714285717,0.5504285714285714,0.9929304705285973,0.1530855103182132
+"(S
+  (SBAR (S (NP (PRP he)) (VP (VBD had) (VP (VBN missed)))))
+  (CC but)
+  (PP
+    (ADVP (RB right))
+    (IN in)
+    (NP (NP (DT the) (NN thick)) (PP (IN of) (NP (NNS things))))))",he had missed but right in the thick of things,S,(SBAR (SBAR (S (NP (PRP he)) (VP (VBD had) (VP (VBN missed)))))),he had missed,SBAR,"(PP
+  (PP
+    (ADVP (RB right))
+    (IN in)
+    (NP (NP (DT the) (NN thick)) (PP (IN of) (NP (NNS things))))))",right in the thick of things,PP,(CC but),but,muthiya made the turn last thursday at four over smarting at the three birdie putts he had missed but right in the thick of things,S,S,P,False,False,False,False,False,-0.9708051681518555,-0.854823887348175,-0.8393042683601379,,[nan nan nan],,,,[0.56933333 0.345      0.558     ],0.5693333333333334,0.345,0.5579999999999999,,
+(ADJP (JJ left) (CC and) (JJ right)),left and right,ADJP,(JJ (JJ left)),left,JJ,(JJ (JJ right)),right,JJ,(CC and),and,consistently left and right,J,J,J,True,True,False,False,False,-0.9899006485939026,0.9770306348800659,0.9895903468132019,0.49213990569114685,[0.354 0.37  0.361],0.354,0.37,0.361,[0.74  0.352 0.71 ],0.74,0.352,0.71,0.9546536782588101,0.5206928077091136
+"(S
+  (S
+    (NP (NN muthiya))
+    (VP
+      (MD would)
+      (VP
+        (VB miss)
+        (NP (DT the) (NN cut))
+        (PP (IN by) (NP (DT a) (NN dozen) (NNS strokes)))
+        (PP (IN after) (NP (DT an) (CD 80)))
+        (PP (IN on) (NP (NN friday))))))
+  (CC yet)
+  (S
+    (NP (PRP he))
+    (VP
+      (VBD was)
+      (NP
+        (NP (DT the) (NN picture))
+        (PP (IN of) (NP (NN class) (CC and) (NN composure)))))))",muthiya would miss the cut by a dozen strokes after an 80 on friday yet he was the picture of class and composure,S,"(S
+  (S
+    (NP (NN muthiya))
+    (VP
+      (MD would)
+      (VP
+        (VB miss)
+        (NP (DT the) (NN cut))
+        (PP (IN by) (NP (DT a) (NN dozen) (NNS strokes)))
+        (PP (IN after) (NP (DT an) (CD 80)))
+        (PP (IN on) (NP (NN friday)))))))",muthiya would miss the cut by a dozen strokes after an 80 on friday,S,"(S
+  (S
+    (NP (PRP he))
+    (VP
+      (VBD was)
+      (NP
+        (NP (DT the) (NN picture))
+        (PP (IN of) (NP (NN class) (CC and) (NN composure)))))))",he was the picture of class and composure,S,(CC yet),yet,muthiya would miss the cut by a dozen strokes after an 80 on friday yet he was the picture of class and composure,S,S,S,True,True,True,False,False,-0.9969774484634399,0.9933412671089172,0.9989008903503418,,[0.5526 0.4292 0.3988],0.5526,0.42919999999999997,0.3988,[0.724      0.32533333 0.567     ],0.7240000000000001,0.3253333333333333,0.5670000000000001,0.9748411560344157,0.26164381216540267
+(NP (NN class) (CC and) (NN composure)),class and composure,NP,(NN (NN class)),class,NN,(NN (NN composure)),composure,NN,(CC and),and,muthiya would miss the cut by a dozen strokes after an 80 on friday yet he was the picture of class and composure,N,N,N,True,True,False,False,False,0.9875482320785522,0.9933412671089172,0.9969423413276672,0.05712122842669487,[0.656 0.314 0.522],0.656,0.314,0.522,[0.802 0.354 0.717],0.802,0.354,0.717,0.997717922768367,0.24686230980042292
+"(VP
+  (VBD understood)
+  (CC and)
+  (VBD embraced)
+  (NP
+    (NP (DT the) (NN significance))
+    (PP
+      (IN of)
+      (S
+        (VP
+          (VBG being)
+          (NP
+            (NP (DT the) (JJ first) (JJ black) (JJ african))
+            (SBAR
+              (S
+                (VP
+                  (TO to)
+                  (VP
+                    (VB play)
+                    (PP (IN in) (NP (DT the) (JJ u.s.) (NN open)))))))))))))",understood and embraced the significance of being the first black african to play in the u.s. open,VP,(VBD (VBD understood)),understood,VBD,(VBD (VBD embraced)),embraced,VBD,(CC and),and,he told reporters after the first round that while he wanted to be known as a golfer he understood and embraced the significance of being the first black african to play in the u.s. open,V,V,V,True,True,False,False,False,0.9939156174659729,0.9908281564712524,0.9960588216781616,0.4056881070137024,[0.78  0.441 0.686],0.78,0.441,0.686,[nan nan nan],,,,,
+(NP (FW wongani) (CC and) (NN madalitso)),wongani and madalitso,NP,(FW (FW wongani)),wongani,FW,(NN (NN madalitso)),madalitso,NN,(CC and),and,in 1980 peter muthiya married edith siame who bore him two sons wongani and madalitso and a daughter named ivwananji,N,X,N,False,False,False,False,False,0.5034370422363281,0.9878684878349304,0.5714073181152344,,[nan nan nan],,,,[nan nan nan],,,,,
+"(NP
+  (NP
+    (NP (CD two) (NNS sons))
+    (NP (FW wongani) (CC and) (NN madalitso)))
+  (CC and)
+  (NP
+    (NP (DT a) (NN daughter))
+    (VP (VBN named) (S (NP (FW ivwananji))))))",two sons wongani and madalitso and a daughter named ivwananji,NP,"(NP
+  (NP
+    (NP (CD two) (NNS sons))
+    (NP (FW wongani) (CC and) (NN madalitso))))",two sons wongani and madalitso,NP,"(NP
+  (NP
+    (NP (DT a) (NN daughter))
+    (VP (VBN named) (S (NP (FW ivwananji))))))",a daughter named ivwananji,NP,(CC and),and,in 1980 peter muthiya married edith siame who bore him two sons wongani and madalitso and a daughter named ivwananji,N,N,N,True,True,False,False,False,0.9987032413482666,0.9878684878349304,0.994390070438385,,[0.52  0.2   0.404],0.52,0.2,0.404,[0.735  0.4055 0.51  ],0.7350000000000001,0.40549999999999997,0.51,0.9902047864433093,0.3157392120088983
+"(NP
+  (NP (PRP$ their) (NN father))
+  (NNS wongani)
+  (CC and)
+  (NNP madalitso))",their father wongani and madalitso,NP,(NNS (NNS wongani)),wongani,NNS,(NNP (NNP madalitso)),madalitso,NNP,(CC and),and,unbeknownst to their father wongani and madalitso would chip balls around the yard,N,N,N,False,True,False,False,False,0.5034370422363281,-0.9316720962524414,0.5714073181152344,,[nan nan nan],,,,[nan nan nan],,,,,
+"(VP
+  (VP (VBD smiled))
+  (CC and)
+  (VP
+    (VBD asked)
+    (NP (PRP us))
+    (SBAR
+      (S
+        (NP (PRP you))
+        (VP
+          (VBP want)
+          (S
+            (VP
+              (TO to)
+              (VP (VB start) (S (VP (VBG playing) (NP (NN golf))))))))))))",smiled and asked us you want to start playing golf,VP,(VP (VP (VBD smiled))),smiled,VP,"(VP
+  (VP
+    (VBD asked)
+    (NP (PRP us))
+    (SBAR
+      (S
+        (NP (PRP you))
+        (VP
+          (VBP want)
+          (S
+            (VP
+              (TO to)
+              (VP (VB start) (S (VP (VBG playing) (NP (NN golf))))))))))))",asked us you want to start playing golf,VP,(CC and),and,he smiled and asked us you want to start playing golf,V,V,V,True,True,False,False,False,0.9941985607147217,0.9712273478507996,-0.8185602426528931,,[0.949 0.53  0.536],0.949,0.53,0.536,[0.64266667 0.47666667 0.54466667],0.6426666666666666,0.47666666666666674,0.5446666666666666,0.9841355804523968,0.3110621588471775
+"(S
+  (S (NP (DT the) (NN family)) (VP (VBD had) (NP (DT a) (NN vcr))))
+  (CC and)
+  (S
+    (NP (DT the) (NN boy))
+    (VP
+      (VBD spent)
+      (NP (JJ countless) (NNS hours))
+      (S
+        (VP
+          (VBG studying)
+          (NP
+            (NP (NN video))
+            (PP
+              (IN of)
+              (NP
+                (NP (CD three) (NNS golfers))
+                (PP
+                  (PP (IN in) (ADJP (JJ particular)))
+                  (NP
+                    (NP (NN tom) (NN watson) (NN ian) (NNP woosnam))
+                    (CC and)
+                    (NP (NN tony) (NN jacklin))))))))))))",the family had a vcr and the boy spent countless hours studying video of three golfers in particular tom watson ian woosnam and tony jacklin,S,(S (S (NP (DT the) (NN family)) (VP (VBD had) (NP (DT a) (NN vcr))))),the family had a vcr,S,"(S
+  (S
+    (NP (DT the) (NN boy))
+    (VP
+      (VBD spent)
+      (NP (JJ countless) (NNS hours))
+      (S
+        (VP
+          (VBG studying)
+          (NP
+            (NP (NN video))
+            (PP
+              (IN of)
+              (NP
+                (NP (CD three) (NNS golfers))
+                (PP
+                  (PP (IN in) (ADJP (JJ particular)))
+                  (NP
+                    (NP (NN tom) (NN watson) (NN ian) (NNP woosnam))
+                    (CC and)
+                    (NP (NN tony) (NN jacklin))))))))))))",the boy spent countless hours studying video of three golfers in particular tom watson ian woosnam and tony jacklin,S,(CC and),and,the family had a vcr and the boy spent countless hours studying video of three golfers in particular tom watson ian woosnam and tony jacklin,S,S,S,True,True,True,False,False,0.979306697845459,0.9974587559700012,0.956110417842865,,[0.968 0.383 0.643],0.968,0.383,0.643,[0.5354 0.4132 0.4306],0.5354000000000001,0.41319999999999996,0.4306,0.9718537344696915,0.4828753048148144
+"(NP
+  (NP (NN tom) (NN watson) (NN ian) (NNP woosnam))
+  (CC and)
+  (NP (NN tony) (NN jacklin)))",tom watson ian woosnam and tony jacklin,NP,(NP (NP (NN tom) (NN watson) (NN ian) (NNP woosnam))),tom watson ian woosnam,NP,(NP (NP (NN tony) (NN jacklin))),tony jacklin,NP,(CC and),and,the family had a vcr and the boy spent countless hours studying video of three golfers in particular tom watson ian woosnam and tony jacklin,N,N,N,True,True,False,False,False,0.9971131086349487,0.9974587559700012,0.8912283182144165,,[nan nan nan],,,,[nan nan nan],,,,,
+(ADJP (JJ irritating) (CC but) (JJ fruitful)),irritating but fruitful,ADJP,(JJ (JJ irritating)),irritating,JJ,(JJ (JJ fruitful)),fruitful,JJ,(CC but),but,irritating but fruitful,J,J,J,True,True,False,False,False,-0.9999427795410156,0.9625542163848877,0.9976905584335327,0.14949139952659607,[0.104 0.912 0.393],0.104,0.912,0.393,[0.73  0.618 0.637],0.73,0.618,0.637,0.7755252586245566,0.7333812105583289
+"(NP
+  (NP (NNP ben) (NNP hayes))
+  (CC and)
+  (NP (NN camilo) (NNP villegas)))",ben hayes and camilo villegas,NP,(NP (NP (NNP ben) (NNP hayes))),ben hayes,NP,(NP (NP (NN camilo) (NNP villegas))),camilo villegas,NP,(CC and),and,was it any wonder then that he seemed utterly at ease at winged foot bumping fists with old friends like ben hayes and camilo villegas on the driving range working the putting green like a kennedy chatting easily with the veterans,N,N,N,True,True,False,False,False,0.9989700317382812,0.9986209869384766,0.9992392063140869,,[nan nan nan],,,,[nan nan nan],,,,,
+"(VP
+  (VP
+    (VBD told)
+    (NP (PRP me))
+    (SBAR
+      (S
+        (NP (PRP i))
+        (VP
+          (VBD had)
+          (VP
+            (VBN brought)
+            (NP (DT the) (NN country))
+            (NP
+              (NP (NP (DT a) (NN lot)) (PP (IN of) (NP (NN pride))))
+              (VP (VP (VBZ says)) (NP (NN muthiya)))))))))
+  (CC and)
+  (VP
+    (VBD asked)
+    (SBAR
+      (WHNP (WP what))
+      (S
+        (NP (PRP he))
+        (VP (MD could) (VP (VB do) (PP (IN for) (NP (PRP me)))))))))",told me i had brought the country a lot of pride says muthiya and asked what he could do for me,VP,"(VP
+  (VP
+    (VBD told)
+    (NP (PRP me))
+    (SBAR
+      (S
+        (NP (PRP i))
+        (VP
+          (VBD had)
+          (VP
+            (VBN brought)
+            (NP (DT the) (NN country))
+            (NP
+              (NP (NP (DT a) (NN lot)) (PP (IN of) (NP (NN pride))))
+              (VP (VP (VBZ says)) (NP (NN muthiya))))))))))",told me i had brought the country a lot of pride says muthiya,VP,"(VP
+  (VP
+    (VBD asked)
+    (SBAR
+      (WHNP (WP what))
+      (S
+        (NP (PRP he))
+        (VP (MD could) (VP (VB do) (PP (IN for) (NP (PRP me)))))))))",asked what he could do for me,VP,(CC and),and,he told me i had brought the country a lot of pride says muthiya and asked what he could do for me,V,V,V,True,True,False,False,False,0.9551189541816711,0.8273006677627563,-0.9896388053894043,,[0.65266667 0.41433333 0.637     ],0.6526666666666667,0.4143333333333333,0.637,[nan nan nan],,,,,
+"(VP
+  (VP
+    (VB play)
+    (NP (NN college) (NN golf))
+    (PP (IN in) (NP (DT the) (NN u.s.))))
+  (CC and)
+  (ADVP (RB then))
+  (VP (VB play) (PP (IN on) (NP (DT the) (NN pga) (NN tour)))))",play college golf in the u.s. and then play on the pga tour,VP,"(VP
+  (VP
+    (VB play)
+    (NP (NN college) (NN golf))
+    (PP (IN in) (NP (DT the) (NN u.s.)))))",play college golf in the u.s.,VP,"(VP
+  (ADVP (RB then))
+  (VP (VB play) (PP (IN on) (NP (DT the) (NN pga) (NN tour)))))",then play on the pga tour,VP,(CC and),and,the teenager laid out his plan he wanted to play college golf in the u.s. and then play on the pga tour,V,V,V,True,True,False,False,False,0.9178431034088135,0.9338463544845581,0.99726402759552,,[0.695 0.53  0.517],0.695,0.5299999999999999,0.517,[0.7375 0.655  0.4505],0.7375,0.655,0.4505,0.992232308630534,0.14782929344348514
+(NP (NNP madalitso) (CC and) (NN peter)),madalitso and peter,NP,(NNP (NNP madalitso)),madalitso,NNP,(NN (NN peter)),peter,NN,(CC and),and,not long after the meeting madalitso and peter were introduced to jayme roth an american lawyer in zambia doing government relations work,N,N,N,False,True,False,False,False,0.5714073181152344,-0.5016385912895203,0.9413606524467468,,[nan nan nan],,,,[nan nan nan],,,,,
+"(VP
+  (VP (VBD met) (NP (DT the) (NNS muthiyas)))
+  (CC and)
+  (VP
+    (VBD became)
+    (VP (VBN determined) (S (VP (TO to) (VP (VB assist)))))))",met the muthiyas and became determined to assist,VP,(VP (VP (VBD met) (NP (DT the) (NNS muthiyas)))),met the muthiyas,VP,"(VP
+  (VP
+    (VBD became)
+    (VP (VBN determined) (S (VP (TO to) (VP (VB assist)))))))",became determined to assist,VP,(CC and),and,-RRB- met the muthiyas and became determined to assist,V,V,V,True,True,False,False,False,0.9579646587371826,0.9979165196418762,0.9969835877418518,,[nan nan nan],,,,[0.7965 0.4815 0.651 ],0.7965,0.48150000000000004,0.651,,
+"(VP
+  (VP
+    (VBD helped)
+    (S
+      (NP (NNP madalitso))
+      (VP (VB prepare) (PP (IN for) (NP (DT the) (NN sat))))))
+  (CC and)
+  (VP
+    (VBD sent)
+    (PRT (RP out))
+    (NP (NNS videotapes))
+    (PP
+      (IN to)
+      (NP
+        (NP (NNS coaches))
+        (PP (ADVP (DT all)) (IN over) (NP (NNP america)))))))",helped madalitso prepare for the sat and sent out videotapes to coaches all over america,VP,"(VP
+  (VP
+    (VBD helped)
+    (S
+      (NP (NNP madalitso))
+      (VP (VB prepare) (PP (IN for) (NP (DT the) (NN sat)))))))",helped madalitso prepare for the sat,VP,"(VP
+  (VP
+    (VBD sent)
+    (PRT (RP out))
+    (NP (NNS videotapes))
+    (PP
+      (IN to)
+      (NP
+        (NP (NNS coaches))
+        (PP (ADVP (DT all)) (IN over) (NP (NNP america)))))))",sent out videotapes to coaches all over america,VP,(CC and),and,he helped madalitso prepare for the sat and sent out videotapes to coaches all over america,V,V,V,True,True,False,False,False,0.9946848750114441,0.9611726999282837,-0.933138906955719,,[0.656 0.542 0.603],0.656,0.542,0.603,[nan nan nan],,,,,
+"(S
+  (S
+    (NP (PRP he))
+    (VP (VBZ gets) (PP (IN off) (NP (DT the) (NN plane)))))
+  (CC and)
+  (S
+    (NP (PRP$ his) (NNS clubs))
+    (VP
+      (VBD looked)
+      (PP
+        (IN like)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP (PRP you))
+            (VP
+              (MD 'd)
+              (VP
+                (VB get)
+                (PP (IN at) (NP (DT a) (NN garage) (NN sale))))))))))
+  (VP (VBZ says))
+  (NP (UH roth)))",he gets off the plane and his clubs looked like what you 'd get at a garage sale says roth,S,"(S
+  (S
+    (NP (PRP he))
+    (VP (VBZ gets) (PP (IN off) (NP (DT the) (NN plane))))))",he gets off the plane,S,"(S
+  (S
+    (NP (PRP$ his) (NNS clubs))
+    (VP
+      (VBD looked)
+      (PP
+        (IN like)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP (PRP you))
+            (VP
+              (MD 'd)
+              (VP
+                (VB get)
+                (PP (IN at) (NP (DT a) (NN garage) (NN sale)))))))))))",his clubs looked like what you 'd get at a garage sale,S,(CC and),and,he gets off the plane and his clubs looked like what you 'd get at a garage sale says roth,S,S,S,True,True,True,False,False,0.9942463040351868,-0.9617339372634888,-0.9987737536430359,,[0.51  0.356 0.386],0.51,0.356,0.386,[0.672  0.4724 0.5464],0.672,0.47239999999999993,0.5464,0.9994990060561892,0.25597093585014685
+"(VP
+  (VP (VBD took) (NP (DT the) (NN lead)))
+  (CC and)
+  (VP (VBD won) (S (VP (VBG going) (ADVP (RB away))))))",took the lead and won going away,VP,(VP (VP (VBD took) (NP (DT the) (NN lead)))),took the lead,VP,(VP (VP (VBD won) (S (VP (VBG going) (ADVP (RB away)))))),won going away,VP,(CC and),and,he took the lead and won going away,V,V,V,True,True,False,False,False,0.9914985299110413,0.9896456003189087,0.9500490427017212,,[0.323 0.657 0.455],0.323,0.657,0.455,[nan nan nan],,,,,
+"(VP
+  (VBN offered)
+  (CC and)
+  (VBN accepted)
+  (NP
+    (NP (DT a) (JJ full) (NN ride))
+    (PP
+      (IN to)
+      (NP
+        (NP (JJ new) (NN mexico))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (PP
+              (IN in)
+              (NP
+                (NP (DT the) (NN fall))
+                (PP (IN of) (NP (CD 2001)))))
+            (NP (PRP he))
+            (VP
+              (VBD arrived)
+              (PP
+                (IN with)
+                (NP
+                  (NP
+                    (NP (DT a) (NN duffel) (NN bag))
+                    (PP (IN of) (NP (NNS clothes))))
+                  (CC and)
+                  (NP (PRP$ his) (NNS clubs)))))))))))",offered and accepted a full ride to new mexico where in the fall of 2001 he arrived with a duffel bag of clothes and his clubs,VP,(VBN (VBN offered)),offered,VBN,(VBN (VBN accepted)),accepted,VBN,(CC and),and,madalitso was offered and accepted a full ride to new mexico where in the fall of 2001 he arrived with a duffel bag of clothes and his clubs,V,V,V,True,True,False,False,False,0.9503310322761536,0.9845743775367737,0.9745930433273315,0.5218538045883179,[0.582 0.49  0.544],0.582,0.49,0.544,[nan nan nan],,,,,
+"(NP
+  (NP
+    (NP (DT a) (NN duffel) (NN bag))
+    (PP (IN of) (NP (NNS clothes))))
+  (CC and)
+  (NP (PRP$ his) (NNS clubs)))",a duffel bag of clothes and his clubs,NP,"(NP
+  (NP
+    (NP (DT a) (NN duffel) (NN bag))
+    (PP (IN of) (NP (NNS clothes)))))",a duffel bag of clothes,NP,(NP (NP (PRP$ his) (NNS clubs))),his clubs,NP,(CC and),and,madalitso was offered and accepted a full ride to new mexico where in the fall of 2001 he arrived with a duffel bag of clothes and his clubs,N,N,N,True,True,False,False,False,-0.9941930174827576,0.9845743775367737,0.99910968542099,,[0.611      0.30666667 0.37066667],0.611,0.3066666666666667,0.37066666666666664,[0.723 0.53  0.591],0.723,0.53,0.591,0.9860426783504657,0.3331194313689244
+"(S
+  (S
+    (NP (PRP they))
+    (VP
+      (VBD asked)
+      (NP (PRP me))
+      (S
+        (VP
+          (TO to)
+          (VP (VB spend) (NP (DT the) (NN night)) (ADVP (RB here)))))))
+  (CC but)
+  (S
+    (NP (PRP i))
+    (VP
+      (MD 'll)
+      (VP
+        (VB be)
+        (ADVP (RB back) (PP (IN to) (NP (NN work))))
+        (PP (IN on) (NP (NN monday)))))))",they asked me to spend the night here but i 'll be back to work on monday,S,"(S
+  (S
+    (NP (PRP they))
+    (VP
+      (VBD asked)
+      (NP (PRP me))
+      (S
+        (VP
+          (TO to)
+          (VP (VB spend) (NP (DT the) (NN night)) (ADVP (RB here))))))))",they asked me to spend the night here,S,"(S
+  (S
+    (NP (PRP i))
+    (VP
+      (MD 'll)
+      (VP
+        (VB be)
+        (ADVP (RB back) (PP (IN to) (NP (NN work))))
+        (PP (IN on) (NP (NN monday)))))))",i 'll be back to work on monday,S,(CC but),but,he said they asked me to spend the night here but i 'll be back to work on monday,S,S,S,True,True,True,False,False,-0.9980693459510803,-0.9645727872848511,0.7245813608169556,,[0.635  0.5705 0.4165],0.635,0.5705,0.4165,[0.5785 0.4745 0.543 ],0.5785,0.4745,0.543,0.9841884207977665,0.16855414560312665
+(NP (NP (NN marketing)) (CC and) (NP (JJ electronic) (NN commerce))),marketing and electronic commerce,NP,(NP (NP (NN marketing))),marketing,NP,(NP (NP (JJ electronic) (NN commerce))),electronic commerce,NP,(CC and),and,-LRB- he earned degrees in marketing and electronic commerce,N,N,N,True,True,False,False,False,0.6921589970588684,0.9842433929443359,0.990471601486206,,[0.521 0.774 0.675],0.521,0.774,0.675,[0.6085 0.495  0.746 ],0.6085,0.495,0.746,0.965599673531076,0.3008957460649785
+(NP (NNS lions) (CC and) (NNS snakes)),lions and snakes,NP,(NNS (NNS lions)),lions,NNS,(NNS (NNS snakes)),snakes,NNS,(CC and),and,says wongani he used to tell us that the world was a jungle full of lions and snakes and that to survive we had to get our education,N,N,N,True,True,False,False,False,0.9735651016235352,0.8955281376838684,-0.9489490389823914,0.4589032530784607,[nan nan nan],,,,[0.176 0.662 0.606],0.176,0.662,0.606,,
+"(SBAR
+  (SBAR
+    (IN that)
+    (S
+      (NP (DT the) (NN world))
+      (VP
+        (VBD was)
+        (NP
+          (NP (DT a) (NN jungle))
+          (ADJP
+            (JJ full)
+            (PP (IN of) (NP (NNS lions) (CC and) (NNS snakes))))))))
+  (CC and)
+  (SBAR
+    (IN that)
+    (S
+      (S (VP (TO to) (VP (VB survive))))
+      (NP (PRP we))
+      (VP
+        (VBD had)
+        (S (VP (TO to) (VP (VB get) (NP (PRP$ our) (NN education)))))))))",that the world was a jungle full of lions and snakes and that to survive we had to get our education,SBAR,"(SBAR
+  (SBAR
+    (IN that)
+    (S
+      (NP (DT the) (NN world))
+      (VP
+        (VBD was)
+        (NP
+          (NP (DT a) (NN jungle))
+          (ADJP
+            (JJ full)
+            (PP (IN of) (NP (NNS lions) (CC and) (NNS snakes)))))))))",that the world was a jungle full of lions and snakes,SBAR,"(SBAR
+  (SBAR
+    (IN that)
+    (S
+      (S (VP (TO to) (VP (VB survive))))
+      (NP (PRP we))
+      (VP
+        (VBD had)
+        (S (VP (TO to) (VP (VB get) (NP (PRP$ our) (NN education)))))))))",that to survive we had to get our education,SBAR,(CC and),and,says wongani he used to tell us that the world was a jungle full of lions and snakes and that to survive we had to get our education,S,S,S,True,True,True,False,False,-0.8505878448486328,0.8955281376838684,-0.8608534336090088,,[0.475   0.45525 0.63525],0.4749999999999999,0.45525000000000004,0.63525,[0.802      0.56433333 0.74433333],0.802,0.5643333333333334,0.7443333333333334,0.9864542022448692,0.36156236975413014
+"(NP
+  (NP (DT the) (JJ national) (NN invitational))
+  (CC and)
+  (NP (DT the) (NN conference) (NNS championships)))",the national invitational and the conference championships,NP,(NP (NP (DT the) (JJ national) (NN invitational))),the national invitational,NP,(NP (NP (DT the) (NN conference) (NNS championships))),the conference championships,NP,(CC and),and,still he pulled off top 10 finishes at the national invitational and the conference championships,N,N,N,True,True,False,False,False,0.9170898199081421,-0.8407708406448364,0.9989100694656372,,[0.698 0.365 0.663],0.698,0.365,0.663,[0.688 0.615 0.606],0.688,0.615,0.606,0.9734704082659835,0.2566105999369473
+"(NP
+  (NP
+    (NP (NP (NN bill) (FW haas)) (NN son))
+    (PP (IN of) (NP (NN tour) (FW pro) (NN jay))))
+  (CC and)
+  (NP
+    (NP (NN matt) (JJ weibring) (NN son))
+    (PP (IN of) (NP (NNS champions) (NN tour) (FW pro) (FW d.a)))))",bill haas son of tour pro jay and matt weibring son of champions tour pro d.a,NP,"(NP
+  (NP
+    (NP (NP (NN bill) (FW haas)) (NN son))
+    (PP (IN of) (NP (NN tour) (FW pro) (NN jay)))))",bill haas son of tour pro jay,NP,"(NP
+  (NP
+    (NP (NN matt) (JJ weibring) (NN son))
+    (PP (IN of) (NP (NNS champions) (NN tour) (FW pro) (FW d.a)))))",matt weibring son of champions tour pro d.a,NP,(CC and),and,the field of 37 included bill haas son of tour pro jay and matt weibring son of champions tour pro d.a,N,N,N,True,True,False,False,False,0.9981111288070679,0.9905450344085693,0.9987412095069885,,[0.6098 0.4382 0.5374],0.6098000000000001,0.4382,0.5374000000000001,[0.70733333 0.46033333 0.58766667],0.7073333333333333,0.4603333333333333,0.5876666666666667,0.9992060528407204,0.11193468333511863
+"(VP
+  (VP
+    (VBD shot)
+    (NP (DT a) (CD 65))
+    (PP (IN in) (NP (DT the) (NN morning))))
+  (CC and)
+  (VP (NP (DT a) (CD 69)) (PP (IN in) (NP (DT the) (NN afternoon)))))",shot a 65 in the morning and a 69 in the afternoon,VP,"(VP
+  (VP
+    (VBD shot)
+    (NP (DT a) (CD 65))
+    (PP (IN in) (NP (DT the) (NN morning)))))",shot a 65 in the morning,VP,"(VP
+  (VP (NP (DT a) (CD 69)) (PP (IN in) (NP (DT the) (NN afternoon)))))",a 69 in the afternoon,VP,(CC and),and,muthiya shot a 65 in the morning and a 69 in the afternoon,V,V,V,True,True,False,False,False,-0.5092085003852844,0.9170336127281189,-0.8935295939445496,,[0.416  0.4925 0.5065],0.416,0.4925,0.5065,[0.533 0.388 0.339],0.533,0.388,0.339,0.9617467960982902,0.22948965118279296
+(ADVP (IN up) (CC and) (IN down)),up and down,ADVP,(IN (IN up)),up,IN,(IN (IN down)),down,IN,(CC and),and,i started jumping up and down he says,R,P,P,True,True,False,False,False,0.9781508445739746,0.6196932792663574,-0.9819450378417969,0.6396992206573486,[nan nan nan],,,,[nan nan nan],,,,,
+"(VP
+  (VP (VBD took) (NP (DT a) (NN shower)))
+  (CC and)
+  (VP (VBD went) (PP (IN to) (NP (NN work)))))",took a shower and went to work,VP,(VP (VP (VBD took) (NP (DT a) (NN shower)))),took a shower,VP,(VP (VP (VBD went) (PP (IN to) (NP (NN work))))),went to work,VP,(CC and),and,not knowing what else to do he took a shower and went to work ...,V,V,V,True,True,False,True,False,-0.990211546421051,-0.9364650845527649,-0.6905984878540039,,[0.669 0.346 0.336],0.669,0.346,0.336,[0.719 0.596 0.75 ],0.719,0.596,0.75,0.9507882513826106,0.4862057177779792
+"(S
+  (S
+    (NP (DT the) (NN security) (NNS guards))
+    (VP
+      (VBD thought)
+      (SBAR (S (NP (PRP i)) (VP (VBD was) (ADJP (JJ crazy)))))))
+  (CC but)
+  (S
+    (S
+      (NP (PRP i))
+      (VP (VBD was) (ADVP (RB simply)) (ADJP (JJ overjoyed))))
+    (NP (PRP he))
+    (VP (VBZ says))))",the security guards thought i was crazy but i was simply overjoyed he says,S,"(S
+  (S
+    (NP (DT the) (NN security) (NNS guards))
+    (VP
+      (VBD thought)
+      (SBAR (S (NP (PRP i)) (VP (VBD was) (ADJP (JJ crazy))))))))",the security guards thought i was crazy,S,"(S
+  (S
+    (S
+      (NP (PRP i))
+      (VP (VBD was) (ADVP (RB simply)) (ADJP (JJ overjoyed))))
+    (NP (PRP he))
+    (VP (VBZ says))))",i was simply overjoyed he says,S,(CC but),but,the security guards thought i was crazy but i was simply overjoyed he says,S,S,S,True,True,True,False,False,-0.9965730905532837,0.9835696816444397,0.6986931562423706,,[0.55525 0.54525 0.60825],0.55525,0.54525,0.6082500000000001,[0.7215 0.428  0.574 ],0.7215,0.428,0.5740000000000001,0.9792166699739981,0.20629999394086276
+"(VP
+  (VP
+    (VBD came)
+    (SBAR
+      (IN before)
+      (S
+        (NP (DT the) (NNS masters))
+        (VP (VBD had) (VP (VBN been) (VP (VBN founded)))))))
+  (CC and)
+  (VP
+    (VBD included)
+    (NP
+      (DT the)
+      (UCP (NML (NN u.s.)) (CC and) (JJ british))
+      (NNS amateurs))))",came before the masters had been founded and included the u.s. and british amateurs,VP,"(VP
+  (VP
+    (VBD came)
+    (SBAR
+      (IN before)
+      (S
+        (NP (DT the) (NNS masters))
+        (VP (VBD had) (VP (VBN been) (VP (VBN founded))))))))",came before the masters had been founded,VP,"(VP
+  (VP
+    (VBD included)
+    (NP
+      (DT the)
+      (UCP (NML (NN u.s.)) (CC and) (JJ british))
+      (NNS amateurs))))",included the u.s. and british amateurs,VP,(CC and),and,-LRB- bobby jones 's grand slam in 1930 came before the masters had been founded and included the u.s. and british amateurs,V,V,V,True,True,False,False,False,-0.9352949261665344,0.9784132242202759,0.6697794795036316,,[nan nan nan],,,,[0.76  0.402 0.57 ],0.76,0.402,0.57,,
+(UCP (NML (NN u.s.)) (CC and) (JJ british)),u.s. and british,UCP,(NML (NML (NN u.s.))),u.s.,NML,(JJ (JJ british)),british,JJ,(CC and),and,-LRB- bobby jones 's grand slam in 1930 came before the masters had been founded and included the u.s. and british amateurs,X,X,J,False,False,False,False,False,0.681995689868927,0.9784132242202759,0.9561169743537903,,[nan nan nan],,,,[nan nan nan],,,,,
